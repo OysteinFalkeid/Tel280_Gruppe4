@@ -1,0 +1,31 @@
+[2.707s] Invoking command in '/home/Gruppe4/ros2_ws/src/asignment_1_pkg': PYTHONPATH=/home/Gruppe4/ros2_ws/build/asignment_1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/asignment_1_pkg build --build-base /home/Gruppe4/ros2_ws/build/asignment_1_pkg/build install --record /home/Gruppe4/ros2_ws/build/asignment_1_pkg/install.log --single-version-externally-managed install_data
+[3.744s] running egg_info
+[3.746s] writing ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/PKG-INFO
+[3.748s] writing dependency_links to ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/dependency_links.txt
+[3.748s] writing entry points to ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/entry_points.txt
+[3.749s] writing requirements to ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/requires.txt
+[3.750s] writing top-level names to ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/top_level.txt
+[3.758s] reading manifest file '../../build/asignment_1_pkg/asignment_1_pkg.egg-info/SOURCES.txt'
+[3.763s] writing manifest file '../../build/asignment_1_pkg/asignment_1_pkg.egg-info/SOURCES.txt'
+[3.764s] running build
+[3.764s] running build_py
+[3.766s] running install
+[3.767s] running install_lib
+[3.770s] creating /home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages/asignment_1_pkg
+[3.770s] copying /home/Gruppe4/ros2_ws/build/asignment_1_pkg/build/lib/asignment_1_pkg/__init__.py -> /home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages/asignment_1_pkg
+[3.771s] copying /home/Gruppe4/ros2_ws/build/asignment_1_pkg/build/lib/asignment_1_pkg/laser_subscriber.py -> /home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages/asignment_1_pkg
+[3.773s] byte-compiling /home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages/asignment_1_pkg/__init__.py to __init__.cpython-310.pyc
+[3.774s] byte-compiling /home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages/asignment_1_pkg/laser_subscriber.py to laser_subscriber.cpython-310.pyc
+[3.776s] running install_data
+[3.777s] creating /home/Gruppe4/ros2_ws/install/asignment_1_pkg/share/ament_index
+[3.777s] creating /home/Gruppe4/ros2_ws/install/asignment_1_pkg/share/ament_index/resource_index
+[3.778s] creating /home/Gruppe4/ros2_ws/install/asignment_1_pkg/share/ament_index/resource_index/packages
+[3.779s] copying resource/asignment_1_pkg -> /home/Gruppe4/ros2_ws/install/asignment_1_pkg/share/ament_index/resource_index/packages
+[3.779s] copying package.xml -> /home/Gruppe4/ros2_ws/install/asignment_1_pkg/share/asignment_1_pkg
+[3.780s] copying launch/laser_subscriber.launch.py -> /home/Gruppe4/ros2_ws/install/asignment_1_pkg/share/asignment_1_pkg
+[3.780s] running install_egg_info
+[3.786s] Copying ../../build/asignment_1_pkg/asignment_1_pkg.egg-info to /home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages/asignment_1_pkg-0.0.0-py3.10.egg-info
+[3.792s] running install_scripts
+[3.874s] Installing laser_subscriber script to /home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/asignment_1_pkg
+[3.875s] writing list of installed files to '/home/Gruppe4/ros2_ws/build/asignment_1_pkg/install.log'
+[3.997s] Invoked command in '/home/Gruppe4/ros2_ws/src/asignment_1_pkg' returned '0': PYTHONPATH=/home/Gruppe4/ros2_ws/build/asignment_1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/asignment_1_pkg build --build-base /home/Gruppe4/ros2_ws/build/asignment_1_pkg/build install --record /home/Gruppe4/ros2_ws/build/asignment_1_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,11 @@
+Bygger alle pakker:
+    colcon build
+
+Starter pakken for laser sensoren:
+    ros2 launch asignment_1_pkg laser_subscriber.launch.py
+
+Gennererer all koden som kreves for å skrive en ny pakke:
+    ros2 pkg create --build-type ament_python the_package_name_pkg --dependencies TheDependenciesListed
+
+Starter ROS2_turtlebot drivere er essensielt for funksjonaliteten:
+    ros2 launch turtlebot3_bringup robot.launch.py
