@@ -1,0 +1,5 @@
+  File "/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg/wall_follower.py", line 42
+    self.get_logger().info(str("obstacle")
+                          ^
+SyntaxError: '(' was never closed
+

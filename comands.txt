@@ -9,3 +9,5 @@ Gennererer all koden som kreves for å skrive en ny pakke:
 
 Starter ROS2_turtlebot drivere er essensielt for funksjonaliteten:
     ros2 launch turtlebot3_bringup robot.launch.py
+
+    source ~/ros2_ws/install/setup.bash

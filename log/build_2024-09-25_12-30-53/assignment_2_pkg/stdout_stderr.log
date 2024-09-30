@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/requires.txt
+writing top-level names to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/top_level.txt
+reading manifest file '../../build/assignment_2_pkg/assignment_2_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/assignment_2_pkg/assignment_2_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying assignment_2_pkg/wall_follower.py -> /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build/lib/assignment_2_pkg
+running install
+running install_lib
+copying /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build/lib/assignment_2_pkg/wall_follower.py -> /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg
+byte-compiling /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg/wall_follower.py to wall_follower.cpython-310.pyc
+  File "/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg/wall_follower.py", line 42
+    self.get_logger().info(str("obstacle")
+                          ^
+SyntaxError: '(' was never closed
+
+running install_data
+running install_egg_info
+removing '/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/assignment_2_pkg/assignment_2_pkg.egg-info to /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing wall_follower script to /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/assignment_2_pkg
+writing list of installed files to '/home/Gruppe4/ros2_ws/build/assignment_2_pkg/install.log'

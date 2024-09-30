@@ -1,0 +1,24 @@
+[2.684s] Invoking command in '/home/Gruppe4/ros2_ws/src/assignment_2_pkg': PYTHONPATH=/home/Gruppe4/ros2_ws/build/assignment_2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/assignment_2_pkg build --build-base /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build install --record /home/Gruppe4/ros2_ws/build/assignment_2_pkg/install.log --single-version-externally-managed install_data
+[3.738s] running egg_info
+[3.744s] writing ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/PKG-INFO
+[3.745s] writing dependency_links to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/dependency_links.txt
+[3.745s] writing entry points to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/entry_points.txt
+[3.746s] writing requirements to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/requires.txt
+[3.750s] writing top-level names to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/top_level.txt
+[3.753s] reading manifest file '../../build/assignment_2_pkg/assignment_2_pkg.egg-info/SOURCES.txt'
+[3.758s] writing manifest file '../../build/assignment_2_pkg/assignment_2_pkg.egg-info/SOURCES.txt'
+[3.765s] running build
+[3.765s] running build_py
+[3.766s] copying assignment_2_pkg/wall_follower.py -> /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build/lib/assignment_2_pkg
+[3.767s] running install
+[3.767s] running install_lib
+[3.767s] copying /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build/lib/assignment_2_pkg/wall_follower.py -> /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg
+[3.770s] byte-compiling /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg/wall_follower.py to wall_follower.cpython-310.pyc
+[3.772s] running install_data
+[3.773s] running install_egg_info
+[3.781s] removing '/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.783s] Copying ../../build/assignment_2_pkg/assignment_2_pkg.egg-info to /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg-0.0.0-py3.10.egg-info
+[3.788s] running install_scripts
+[3.869s] Installing wall_follower script to /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/assignment_2_pkg
+[3.871s] writing list of installed files to '/home/Gruppe4/ros2_ws/build/assignment_2_pkg/install.log'
+[3.987s] Invoked command in '/home/Gruppe4/ros2_ws/src/assignment_2_pkg' returned '0': PYTHONPATH=/home/Gruppe4/ros2_ws/build/assignment_2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/assignment_2_pkg build --build-base /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build install --record /home/Gruppe4/ros2_ws/build/assignment_2_pkg/install.log --single-version-externally-managed install_data
