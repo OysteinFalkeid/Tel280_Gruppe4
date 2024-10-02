@@ -1,6 +1,6 @@
 import rclpy
 # import the ROS2 python libraries
-from rclpy.node import Nodeygttt
+from rclpy.node import Node
 # import the LaserScan module from sensor_msgs interface
 from sensor_msgs.msg import LaserScan
 # import Quality of Service library, to set the correct profile and reliability to read sensor data.
@@ -23,16 +23,16 @@ class SimpleSubscriber(Node):
         # send the received info to the listener_callback method.
         
         # Gjennomsnittlig avstand fra veggen
-        self.y0 = (30 - 17.8/2)/2 + 17.8/2 # ca. 19.45 cm
+        self.y0 = (0.3 - 0.178/2)/2 + 0.178/2 # ca. 19.45 cm
         
         # Konstante verdier
-        self.Ku = 0.1
-        self.Tu = 2.5
+        self.Ku = 2.0
+        self.Tu = 34.0
         self.Kp = 0.6 * self.Ku
-        self.Ki = 1.2 * self.Ku
+        self.Ki = 1.2 * self.Ku / self.Tu
         self.Kd = 0.075 * self.Ku * self.Tu
         
-        self.I_max = 0.539999999999 # fra testen
+        self.I_max = 0.539999999999 #/ self.Ki# fra testen
         
         # Verdier som skal oppdateres
         self.P = 0 # Propposjonal ledd
@@ -61,7 +61,7 @@ class SimpleSubscriber(Node):
         
     def I_ledd(self):
         """Beregner integral ledd og begrenser det."""
-        self.I = self.I + self.e_t * self.Ki
+        self.I = self.I + self.e_t
         
         # Begrenser I når den er for stor/liten
         if self.I_max < self.I:
@@ -87,22 +87,21 @@ class SimpleSubscriber(Node):
         self.get_logger().info(str(y))
         
         twist_msg = Twist() # pådrag u
-        # if min(laser_msg.ranges[:10]) < 0.25:
-        #     twist_msg.linear.x = 0.0
-        #     twist_msg.angular.z = -2.0
-        #     self.get_logger().info("obstacle")
-        # else:
+
         self.e_t = y - self.y0
-        # self.e_t = (distance_from_wall*10.0-self.offset)
-        # define the linear x-axis velocity of /cmd_vel Topic parameter to 0.5
+        # self.get_logger().info(str(self.e_t))
         twist_msg.linear.x = 0.05
         
-        if y < 0.3:
+
+        
+        if min(laser_msg.ranges[:round(len(laser_msg.ranges)/8)]) < 0.25:
+            twist_msg.angular.z = -0.8
+        else:
             self.I_ledd()
             self.P_ledd()
             self.D_ledd()
-            twist_msg.angular.z = self.P + self.I  + self.D
-            
+            twist_msg.angular.z = self.P + self.I * self.Ki  + self.D
+
         # Publish the message to the Topic
         self.publisher_.publish(twist_msg)
         # Display the message on the console

@@ -26,7 +26,7 @@ class SimpleSubscriber(Node):
 
     def listener_callback(self, msg):
         # print the log info in the terminal
-        self.get_logger().info('I receive: "%s"' % str(msg))
+        # self.get_logger().info('I receive: "%s"' % str(msg))
         
         
         #------------------------------
@@ -37,10 +37,10 @@ class SimpleSubscriber(Node):
         
         # denne koden løser oppgaven
         
-        # if min(msg.ranges) <= 1.0:
-        #    self.get_logger().info('Obstacle')
-        # else:
-        #     self.get_logger().info('Free')
+        if min(msg.ranges) <= 1.0:
+           self.get_logger().info('Obstacle')
+        else:
+            self.get_logger().info('Free')
         
 
 
