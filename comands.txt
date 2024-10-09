@@ -11,3 +11,9 @@ Starter ROS2_turtlebot drivere er essensielt for funksjonaliteten:
     ros2 launch turtlebot3_bringup robot.launch.py
 
     source ~/ros2_ws/install/setup.bash
+
+    ros2 launch assignment_2_pkg assignment_2_launch_file.launch.py
+
+    ros2 run turtlebot3_teleop teleop_keyboard
+
+    colcon build --packages-select assignment_2_pkg

@@ -26,13 +26,17 @@ class SimpleSubscriber(Node):
         self.y0 = (0.3 - 0.178/2)/2 + 0.178/2 # ca. 19.45 cm
         
         # Konstante verdier
-        self.Ku = 2.0
-        self.Tu = 34.0
+        self.speed_multiplier = 3.0
+        
+        self.Ku = 2.0 * self.speed_multiplier
+        self.Tu = 34.0 / (self.speed_multiplier)
         self.Kp = 0.6 * self.Ku
-        self.Ki = 1.2 * self.Ku / self.Tu
+        self.Ki = 1.2 * self.Ku / self.Tu#1.2 er deffinert i zigeler og nicols
         self.Kd = 0.075 * self.Ku * self.Tu
         
-        self.I_max = 0.539999999999 #/ self.Ki# fra testen
+        self.linear = 0.05 * self.speed_multiplier
+        
+        self.I_max = 0.539999999999# * self.speed_multiplier #/ self.Ki# fra testen
         
         # Verdier som skal oppdateres
         self.P = 0 # Propposjonal ledd
@@ -59,9 +63,9 @@ class SimpleSubscriber(Node):
         """Beregner proposjonal ledd."""
         self.P = self.e_t * self.Kp
         
-    def I_ledd(self):
+    def I_ledd(self, time: float = 1):
         """Beregner integral ledd og begrenser det."""
-        self.I = self.I + self.e_t
+        self.I = self.I + self.e_t * time
         
         # Begrenser I når den er for stor/liten
         if self.I_max < self.I:
@@ -84,28 +88,29 @@ class SimpleSubscriber(Node):
     def listener_callback(self, laser_msg):
         
         y = min(laser_msg.ranges[:round(len(laser_msg.ranges)/2)]) # målte avstand fra veggen
-        self.get_logger().info(str(y))
+        #self.get_logger().info(str(y))
         
         twist_msg = Twist() # pådrag u
 
         self.e_t = y - self.y0
         # self.get_logger().info(str(self.e_t))
-        twist_msg.linear.x = 0.05
+        twist_msg.linear.x = self.linear
         
 
         
-        if min(laser_msg.ranges[:round(len(laser_msg.ranges)/8)]) < 0.25:
-            twist_msg.angular.z = -0.8
+        if min(laser_msg.ranges[:round(len(laser_msg.ranges)/11)]) < 0.25:
+            twist_msg.angular.z = -0.8 * self.speed_multiplier
         else:
-            self.I_ledd()
             self.P_ledd()
+            self.I_ledd(laser_msg.scan_time)
             self.D_ledd()
+            self.get_logger().info(f'P {self.P} I {self.I} D {self.D}')
             twist_msg.angular.z = self.P + self.I * self.Ki  + self.D
 
         # Publish the message to the Topic
         self.publisher_.publish(twist_msg)
         # Display the message on the console
-        self.get_logger().info('Publishing: "%s"' % twist_msg)
+        #self.get_logger().info('Publishing: "%s"' % twist_msg)
 
         
         
