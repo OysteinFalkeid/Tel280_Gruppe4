@@ -1,0 +1,300 @@
+[0.000000] (-) TimerEvent: {}
+[0.001660] (asignment_1_pkg) JobQueued: {'identifier': 'asignment_1_pkg', 'dependencies': OrderedDict()}
+[0.002282] (assignment_2_pkg) JobQueued: {'identifier': 'assignment_2_pkg', 'dependencies': OrderedDict()}
+[0.003941] (asignment_1_pkg) JobStarted: {'identifier': 'asignment_1_pkg'}
+[0.057516] (assignment_2_pkg) JobStarted: {'identifier': 'assignment_2_pkg'}
+[0.099004] (-) TimerEvent: {}
+[0.199662] (-) TimerEvent: {}
+[0.300426] (-) TimerEvent: {}
+[0.401469] (-) TimerEvent: {}
+[0.503073] (-) TimerEvent: {}
+[0.605000] (-) TimerEvent: {}
+[0.707053] (-) TimerEvent: {}
+[0.808816] (-) TimerEvent: {}
+[0.910669] (-) TimerEvent: {}
+[1.012550] (-) TimerEvent: {}
+[1.114273] (-) TimerEvent: {}
+[1.216715] (-) TimerEvent: {}
+[1.319497] (-) TimerEvent: {}
+[1.420962] (-) TimerEvent: {}
+[1.522633] (-) TimerEvent: {}
+[1.624161] (-) TimerEvent: {}
+[1.725690] (-) TimerEvent: {}
+[1.827173] (-) TimerEvent: {}
+[1.928638] (-) TimerEvent: {}
+[2.030204] (-) TimerEvent: {}
+[2.131771] (-) TimerEvent: {}
+[2.233372] (-) TimerEvent: {}
+[2.337796] (-) TimerEvent: {}
+[2.439235] (-) TimerEvent: {}
+[2.539929] (-) TimerEvent: {}
+[2.640660] (-) TimerEvent: {}
+[2.741690] (-) TimerEvent: {}
+[2.842484] (-) TimerEvent: {}
+[2.943515] (-) TimerEvent: {}
+[3.044694] (-) TimerEvent: {}
+[3.145588] (-) TimerEvent: {}
+[3.246329] (-) TimerEvent: {}
+[3.347294] (-) TimerEvent: {}
+[3.449216] (-) TimerEvent: {}
+[3.549982] (-) TimerEvent: {}
+[3.650753] (-) TimerEvent: {}
+[3.752798] (-) TimerEvent: {}
+[3.855133] (-) TimerEvent: {}
+[3.957883] (-) TimerEvent: {}
+[4.059160] (-) TimerEvent: {}
+[4.160243] (-) TimerEvent: {}
+[4.442545] (-) TimerEvent: {}
+[4.543248] (-) TimerEvent: {}
+[4.643932] (-) TimerEvent: {}
+[4.744619] (-) TimerEvent: {}
+[4.845295] (-) TimerEvent: {}
+[4.945997] (-) TimerEvent: {}
+[5.046743] (-) TimerEvent: {}
+[5.147423] (-) TimerEvent: {}
+[5.248099] (-) TimerEvent: {}
+[5.348773] (-) TimerEvent: {}
+[5.449450] (-) TimerEvent: {}
+[5.550138] (-) TimerEvent: {}
+[5.650838] (-) TimerEvent: {}
+[5.751520] (-) TimerEvent: {}
+[5.852194] (-) TimerEvent: {}
+[5.952878] (-) TimerEvent: {}
+[6.053548] (-) TimerEvent: {}
+[6.154240] (-) TimerEvent: {}
+[6.255003] (-) TimerEvent: {}
+[6.355683] (-) TimerEvent: {}
+[6.456366] (-) TimerEvent: {}
+[6.557044] (-) TimerEvent: {}
+[6.657723] (-) TimerEvent: {}
+[6.758419] (-) TimerEvent: {}
+[6.859165] (-) TimerEvent: {}
+[6.959849] (-) TimerEvent: {}
+[7.060546] (-) TimerEvent: {}
+[7.161219] (-) TimerEvent: {}
+[7.261883] (-) TimerEvent: {}
+[7.362568] (-) TimerEvent: {}
+[7.463258] (-) TimerEvent: {}
+[7.563983] (-) TimerEvent: {}
+[7.664656] (-) TimerEvent: {}
+[7.765342] (-) TimerEvent: {}
+[7.866015] (-) TimerEvent: {}
+[7.966718] (-) TimerEvent: {}
+[8.067385] (-) TimerEvent: {}
+[8.168093] (-) TimerEvent: {}
+[8.268868] (-) TimerEvent: {}
+[8.369564] (-) TimerEvent: {}
+[8.470236] (-) TimerEvent: {}
+[8.570961] (-) TimerEvent: {}
+[8.671638] (-) TimerEvent: {}
+[8.772322] (-) TimerEvent: {}
+[8.872991] (-) TimerEvent: {}
+[8.973668] (-) TimerEvent: {}
+[9.074342] (-) TimerEvent: {}
+[9.175033] (-) TimerEvent: {}
+[9.275774] (-) TimerEvent: {}
+[9.376469] (-) TimerEvent: {}
+[9.477142] (-) TimerEvent: {}
+[9.577839] (-) TimerEvent: {}
+[9.678519] (-) TimerEvent: {}
+[9.779204] (-) TimerEvent: {}
+[9.879880] (-) TimerEvent: {}
+[9.980584] (-) TimerEvent: {}
+[10.081333] (-) TimerEvent: {}
+[10.182019] (-) TimerEvent: {}
+[10.282727] (-) TimerEvent: {}
+[10.383416] (-) TimerEvent: {}
+[10.484101] (-) TimerEvent: {}
+[10.584787] (-) TimerEvent: {}
+[10.685471] (-) TimerEvent: {}
+[10.786155] (-) TimerEvent: {}
+[10.886866] (-) TimerEvent: {}
+[10.987540] (-) TimerEvent: {}
+[11.088274] (-) TimerEvent: {}
+[11.188967] (-) TimerEvent: {}
+[11.289666] (-) TimerEvent: {}
+[11.390360] (-) TimerEvent: {}
+[11.491075] (-) TimerEvent: {}
+[11.591762] (-) TimerEvent: {}
+[11.692441] (-) TimerEvent: {}
+[11.793134] (-) TimerEvent: {}
+[11.893820] (-) TimerEvent: {}
+[11.994517] (-) TimerEvent: {}
+[12.095203] (-) TimerEvent: {}
+[12.195895] (-) TimerEvent: {}
+[12.296571] (-) TimerEvent: {}
+[12.397258] (-) TimerEvent: {}
+[12.497935] (-) TimerEvent: {}
+[12.598630] (-) TimerEvent: {}
+[12.699356] (-) TimerEvent: {}
+[12.800044] (-) TimerEvent: {}
+[12.900714] (-) TimerEvent: {}
+[13.001399] (-) TimerEvent: {}
+[13.102098] (-) TimerEvent: {}
+[13.202811] (-) TimerEvent: {}
+[13.303499] (-) TimerEvent: {}
+[13.404177] (-) TimerEvent: {}
+[13.504845] (-) TimerEvent: {}
+[13.605521] (-) TimerEvent: {}
+[13.706196] (-) TimerEvent: {}
+[13.806890] (-) TimerEvent: {}
+[13.907564] (-) TimerEvent: {}
+[14.008249] (-) TimerEvent: {}
+[14.108942] (-) TimerEvent: {}
+[14.209633] (-) TimerEvent: {}
+[14.310305] (-) TimerEvent: {}
+[14.411014] (-) TimerEvent: {}
+[14.511697] (-) TimerEvent: {}
+[14.612437] (-) TimerEvent: {}
+[14.713306] (-) TimerEvent: {}
+[14.814012] (-) TimerEvent: {}
+[14.914756] (-) TimerEvent: {}
+[15.015563] (-) TimerEvent: {}
+[15.116260] (-) TimerEvent: {}
+[15.216946] (-) TimerEvent: {}
+[15.317643] (-) TimerEvent: {}
+[15.418360] (-) TimerEvent: {}
+[15.519039] (-) TimerEvent: {}
+[15.619720] (-) TimerEvent: {}
+[15.720394] (-) TimerEvent: {}
+[15.821076] (-) TimerEvent: {}
+[15.921750] (-) TimerEvent: {}
+[16.022545] (-) TimerEvent: {}
+[16.123399] (-) TimerEvent: {}
+[16.224093] (-) TimerEvent: {}
+[16.324781] (-) TimerEvent: {}
+[16.425511] (-) TimerEvent: {}
+[16.526206] (-) TimerEvent: {}
+[16.627003] (-) TimerEvent: {}
+[16.727685] (-) TimerEvent: {}
+[16.828368] (-) TimerEvent: {}
+[16.929104] (-) TimerEvent: {}
+[17.029794] (-) TimerEvent: {}
+[17.130500] (-) TimerEvent: {}
+[17.231215] (-) TimerEvent: {}
+[17.331957] (-) TimerEvent: {}
+[17.432718] (-) TimerEvent: {}
+[17.533405] (-) TimerEvent: {}
+[17.634092] (-) TimerEvent: {}
+[17.734805] (-) TimerEvent: {}
+[17.835868] (-) TimerEvent: {}
+[17.936546] (-) TimerEvent: {}
+[18.037232] (-) TimerEvent: {}
+[18.137915] (-) TimerEvent: {}
+[18.238612] (-) TimerEvent: {}
+[18.339297] (-) TimerEvent: {}
+[18.440070] (-) TimerEvent: {}
+[18.540747] (-) TimerEvent: {}
+[18.641426] (-) TimerEvent: {}
+[18.742131] (-) TimerEvent: {}
+[18.842852] (-) TimerEvent: {}
+[18.943534] (-) TimerEvent: {}
+[19.044217] (-) TimerEvent: {}
+[19.144910] (-) TimerEvent: {}
+[19.245588] (-) TimerEvent: {}
+[19.346270] (-) TimerEvent: {}
+[19.447089] (-) TimerEvent: {}
+[19.547770] (-) TimerEvent: {}
+[19.648454] (-) TimerEvent: {}
+[19.749144] (-) TimerEvent: {}
+[19.849828] (-) TimerEvent: {}
+[19.950561] (-) TimerEvent: {}
+[20.051346] (-) TimerEvent: {}
+[20.152049] (-) TimerEvent: {}
+[20.252894] (-) TimerEvent: {}
+[20.353577] (-) TimerEvent: {}
+[20.454258] (-) TimerEvent: {}
+[20.555022] (-) TimerEvent: {}
+[20.655710] (-) TimerEvent: {}
+[20.756412] (-) TimerEvent: {}
+[20.857151] (-) TimerEvent: {}
+[20.957839] (-) TimerEvent: {}
+[21.058543] (-) TimerEvent: {}
+[21.159231] (-) TimerEvent: {}
+[21.259906] (-) TimerEvent: {}
+[21.360586] (-) TimerEvent: {}
+[21.461817] (-) TimerEvent: {}
+[21.562521] (-) TimerEvent: {}
+[21.899564] (-) TimerEvent: {}
+[22.000248] (-) TimerEvent: {}
+[22.100996] (-) TimerEvent: {}
+[22.201635] (-) TimerEvent: {}
+[22.302322] (-) TimerEvent: {}
+[22.403587] (-) TimerEvent: {}
+[22.505496] (-) TimerEvent: {}
+[22.607654] (-) TimerEvent: {}
+[22.712518] (-) TimerEvent: {}
+[22.815204] (-) TimerEvent: {}
+[22.839587] (assignment_2_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/assignment_2_pkg', 'build', '--build-base', '/home/Gruppe4/ros2_ws/build/assignment_2_pkg/build', 'install', '--record', '/home/Gruppe4/ros2_ws/build/assignment_2_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/Gruppe4/ros2_ws/src/assignment_2_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'Gruppe4', 'SSH_CLIENT': '192.168.137.1 55848 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/Gruppe4/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/Gruppe4', 'TERM_PROGRAM_VERSION': '1.94.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-6229b7cd-98f7-433c-953a-9ed5b5793b72.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install:/home/Gruppe4/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'Gruppe4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/Gruppe4/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '4', 'AMENT_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install/assignment_2_pkg:/home/Gruppe4/ros2_ws/install/asignment_1_pkg:/home/Gruppe4/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/Gruppe4/ros2_ws/build/assignment_2_pkg', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 55848 192.168.137.201 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/Gruppe4/ros2_ws/build/assignment_2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/Gruppe4/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[22.863571] (asignment_1_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/asignment_1_pkg', 'build', '--build-base', '/home/Gruppe4/ros2_ws/build/asignment_1_pkg/build', 'install', '--record', '/home/Gruppe4/ros2_ws/build/asignment_1_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/Gruppe4/ros2_ws/src/asignment_1_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'Gruppe4', 'SSH_CLIENT': '192.168.137.1 55848 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/Gruppe4/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/Gruppe4', 'TERM_PROGRAM_VERSION': '1.94.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-6229b7cd-98f7-433c-953a-9ed5b5793b72.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install:/home/Gruppe4/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'Gruppe4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/Gruppe4/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '4', 'AMENT_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install/assignment_2_pkg:/home/Gruppe4/ros2_ws/install/asignment_1_pkg:/home/Gruppe4/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/Gruppe4/ros2_ws/build/asignment_1_pkg', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 55848 192.168.137.201 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/Gruppe4/ros2_ws/build/asignment_1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/Gruppe4/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[22.915370] (-) TimerEvent: {}
+[23.016612] (-) TimerEvent: {}
+[23.118772] (-) TimerEvent: {}
+[23.222508] (-) TimerEvent: {}
+[23.325882] (-) TimerEvent: {}
+[23.427617] (-) TimerEvent: {}
+[23.529551] (-) TimerEvent: {}
+[23.631723] (-) TimerEvent: {}
+[23.734644] (-) TimerEvent: {}
+[23.835977] (-) TimerEvent: {}
+[23.936993] (-) TimerEvent: {}
+[24.014442] (assignment_2_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[24.018047] (assignment_2_pkg) StdoutLine: {'line': b'writing ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/PKG-INFO\n'}
+[24.020760] (assignment_2_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/dependency_links.txt\n'}
+[24.023239] (assignment_2_pkg) StdoutLine: {'line': b'writing entry points to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/entry_points.txt\n'}
+[24.025374] (assignment_2_pkg) StdoutLine: {'line': b'writing requirements to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/requires.txt\n'}
+[24.027454] (assignment_2_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/top_level.txt\n'}
+[24.037046] (assignment_2_pkg) StdoutLine: {'line': b"reading manifest file '../../build/assignment_2_pkg/assignment_2_pkg.egg-info/SOURCES.txt'\n"}
+[24.037692] (-) TimerEvent: {}
+[24.138763] (-) TimerEvent: {}
+[24.173340] (assignment_2_pkg) StdoutLine: {'line': b"writing manifest file '../../build/assignment_2_pkg/assignment_2_pkg.egg-info/SOURCES.txt'\n"}
+[24.174946] (assignment_2_pkg) StdoutLine: {'line': b'running build\n'}
+[24.175568] (assignment_2_pkg) StdoutLine: {'line': b'running build_py\n'}
+[24.178766] (assignment_2_pkg) StdoutLine: {'line': b'copying assignment_2_pkg/wall_follower.py -> /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build/lib/assignment_2_pkg\n'}
+[24.181468] (assignment_2_pkg) StdoutLine: {'line': b'running install\n'}
+[24.183940] (assignment_2_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[24.188397] (asignment_1_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[24.191523] (asignment_1_pkg) StdoutLine: {'line': b'writing ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/PKG-INFO\n'}
+[24.192639] (assignment_2_pkg) StdoutLine: {'line': b'copying /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build/lib/assignment_2_pkg/wall_follower.py -> /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg\n'}
+[24.195493] (assignment_2_pkg) StdoutLine: {'line': b'byte-compiling /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg/wall_follower.py to wall_follower.cpython-310.pyc\n'}
+[24.199410] (asignment_1_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/dependency_links.txt\n'}
+[24.199903] (assignment_2_pkg) StdoutLine: {'line': b'running install_data\n'}
+[24.201012] (asignment_1_pkg) StdoutLine: {'line': b'writing entry points to ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/entry_points.txt\n'}
+[24.201711] (asignment_1_pkg) StdoutLine: {'line': b'writing requirements to ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/requires.txt\n'}
+[24.202309] (asignment_1_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/top_level.txt\n'}
+[24.205431] (assignment_2_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[24.210747] (asignment_1_pkg) StdoutLine: {'line': b"reading manifest file '../../build/asignment_1_pkg/asignment_1_pkg.egg-info/SOURCES.txt'\n"}
+[24.213990] (assignment_2_pkg) StdoutLine: {'line': b"removing '/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[24.216487] (assignment_2_pkg) StdoutLine: {'line': b'Copying ../../build/assignment_2_pkg/assignment_2_pkg.egg-info to /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg-0.0.0-py3.10.egg-info\n'}
+[24.238937] (-) TimerEvent: {}
+[24.316831] (assignment_2_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[24.320972] (asignment_1_pkg) StdoutLine: {'line': b"writing manifest file '../../build/asignment_1_pkg/asignment_1_pkg.egg-info/SOURCES.txt'\n"}
+[24.339115] (-) TimerEvent: {}
+[24.378984] (asignment_1_pkg) StdoutLine: {'line': b'running build\n'}
+[24.379665] (asignment_1_pkg) StdoutLine: {'line': b'running build_py\n'}
+[24.381493] (asignment_1_pkg) StdoutLine: {'line': b'running install\n'}
+[24.384070] (asignment_1_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[24.390958] (asignment_1_pkg) StdoutLine: {'line': b'running install_data\n'}
+[24.391959] (asignment_1_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[24.400669] (asignment_1_pkg) StdoutLine: {'line': b"removing '/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages/asignment_1_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[24.406588] (asignment_1_pkg) StdoutLine: {'line': b'Copying ../../build/asignment_1_pkg/asignment_1_pkg.egg-info to /home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages/asignment_1_pkg-0.0.0-py3.10.egg-info\n'}
+[24.407229] (assignment_2_pkg) StdoutLine: {'line': b'Installing wall_follower script to /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/assignment_2_pkg\n'}
+[24.407975] (assignment_2_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/Gruppe4/ros2_ws/build/assignment_2_pkg/install.log'\n"}
+[24.439471] (-) TimerEvent: {}
+[24.538495] (asignment_1_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[24.539639] (-) TimerEvent: {}
+[24.555301] (assignment_2_pkg) CommandEnded: {'returncode': 0}
+[24.627747] (asignment_1_pkg) StdoutLine: {'line': b'Installing laser_subscriber script to /home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/asignment_1_pkg\n'}
+[24.629378] (asignment_1_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/Gruppe4/ros2_ws/build/asignment_1_pkg/install.log'\n"}
+[24.640095] (-) TimerEvent: {}
+[24.741768] (-) TimerEvent: {}
+[24.843052] (-) TimerEvent: {}
+[24.943765] (-) TimerEvent: {}
+[25.044647] (-) TimerEvent: {}
+[25.145378] (-) TimerEvent: {}
+[25.246018] (-) TimerEvent: {}
+[25.327891] (assignment_2_pkg) JobEnded: {'identifier': 'assignment_2_pkg', 'rc': 0}
+[25.332925] (asignment_1_pkg) CommandEnded: {'returncode': 0}
+[25.346204] (-) TimerEvent: {}
+[25.363616] (asignment_1_pkg) JobEnded: {'identifier': 'asignment_1_pkg', 'rc': 0}
+[25.366842] (-) EventReactorShutdown: {}

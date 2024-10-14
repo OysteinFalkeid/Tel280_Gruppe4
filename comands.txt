@@ -17,3 +17,5 @@ Starter ROS2_turtlebot drivere er essensielt for funksjonaliteten:
     ros2 run turtlebot3_teleop teleop_keyboard
 
     colcon build --packages-select assignment_2_pkg
+
+    ros2 pkg create --build-type ament_python assignmen_3_pkg --dependencies rclpy std_msgs geometry_msgs

@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.001685] (asignment_1_pkg) JobQueued: {'identifier': 'asignment_1_pkg', 'dependencies': OrderedDict()}
+[0.002317] (assignment_2_pkg) JobQueued: {'identifier': 'assignment_2_pkg', 'dependencies': OrderedDict()}
+[0.002785] (asignment_1_pkg) JobStarted: {'identifier': 'asignment_1_pkg'}
+[0.066328] (assignment_2_pkg) JobStarted: {'identifier': 'assignment_2_pkg'}
+[0.099777] (-) TimerEvent: {}
+[0.200480] (-) TimerEvent: {}
+[0.301351] (-) TimerEvent: {}
+[0.402080] (-) TimerEvent: {}
+[0.502800] (-) TimerEvent: {}
+[0.603522] (-) TimerEvent: {}
+[0.704221] (-) TimerEvent: {}
+[0.804900] (-) TimerEvent: {}
+[0.905584] (-) TimerEvent: {}
+[1.006413] (-) TimerEvent: {}
+[1.107432] (-) TimerEvent: {}
+[1.208805] (-) TimerEvent: {}
+[1.309679] (-) TimerEvent: {}
+[1.410421] (-) TimerEvent: {}
+[1.511164] (-) TimerEvent: {}
+[1.611900] (-) TimerEvent: {}
+[1.712595] (-) TimerEvent: {}
+[1.813295] (-) TimerEvent: {}
+[1.913953] (-) TimerEvent: {}
+[2.014607] (-) TimerEvent: {}
+[2.115351] (-) TimerEvent: {}
+[2.216184] (-) TimerEvent: {}
+[2.317131] (-) TimerEvent: {}
+[2.418007] (-) TimerEvent: {}
+[2.528789] (-) TimerEvent: {}
+[2.629856] (-) TimerEvent: {}
+[2.730982] (-) TimerEvent: {}
+[2.831802] (-) TimerEvent: {}
+[2.932770] (-) TimerEvent: {}
+[3.033713] (-) TimerEvent: {}
+[3.134634] (-) TimerEvent: {}
+[3.235514] (-) TimerEvent: {}
+[3.336395] (-) TimerEvent: {}
+[3.437310] (-) TimerEvent: {}
+[3.538173] (-) TimerEvent: {}
+[3.639133] (-) TimerEvent: {}
+[3.740369] (-) TimerEvent: {}
+[3.841611] (-) TimerEvent: {}
+[3.942662] (-) TimerEvent: {}
+[4.043849] (-) TimerEvent: {}
+[4.145115] (-) TimerEvent: {}
+[4.246529] (-) TimerEvent: {}
+[4.347322] (-) TimerEvent: {}
+[4.448202] (-) TimerEvent: {}
+[4.549159] (-) TimerEvent: {}
+[4.650140] (-) TimerEvent: {}
+[4.750982] (-) TimerEvent: {}
+[4.851821] (-) TimerEvent: {}
+[4.952672] (-) TimerEvent: {}
+[5.053708] (-) TimerEvent: {}
+[5.155317] (-) TimerEvent: {}
+[5.256483] (-) TimerEvent: {}
+[5.358556] (-) TimerEvent: {}
+[5.400103] (assignment_2_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/assignment_2_pkg', 'build', '--build-base', '/home/Gruppe4/ros2_ws/build/assignment_2_pkg/build', 'install', '--record', '/home/Gruppe4/ros2_ws/build/assignment_2_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/Gruppe4/ros2_ws/src/assignment_2_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'Gruppe4', 'SSH_CLIENT': '192.168.137.1 55624 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/Gruppe4/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/Gruppe4', 'OLDPWD': '/home/Gruppe4/.vscode-server', 'TERM_PROGRAM_VERSION': '1.94.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-74250ecf-4f21-40a0-9b66-e9911d2dde56.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install:/home/Gruppe4/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'Gruppe4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/Gruppe4/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '4', 'AMENT_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install/assignment_2_pkg:/home/Gruppe4/ros2_ws/install/asignment_1_pkg:/home/Gruppe4/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/Gruppe4/ros2_ws/build/assignment_2_pkg', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 55624 192.168.137.134 22', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/Gruppe4/ros2_ws/build/assignment_2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/Gruppe4/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[5.423536] (asignment_1_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/asignment_1_pkg', 'build', '--build-base', '/home/Gruppe4/ros2_ws/build/asignment_1_pkg/build', 'install', '--record', '/home/Gruppe4/ros2_ws/build/asignment_1_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/Gruppe4/ros2_ws/src/asignment_1_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'Gruppe4', 'SSH_CLIENT': '192.168.137.1 55624 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/Gruppe4/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/Gruppe4', 'OLDPWD': '/home/Gruppe4/.vscode-server', 'TERM_PROGRAM_VERSION': '1.94.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-74250ecf-4f21-40a0-9b66-e9911d2dde56.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install:/home/Gruppe4/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'Gruppe4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/Gruppe4/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '4', 'AMENT_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install/assignment_2_pkg:/home/Gruppe4/ros2_ws/install/asignment_1_pkg:/home/Gruppe4/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/Gruppe4/ros2_ws/build/asignment_1_pkg', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 55624 192.168.137.134 22', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/Gruppe4/ros2_ws/build/asignment_1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/Gruppe4/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[5.458703] (-) TimerEvent: {}
+[5.559987] (-) TimerEvent: {}
+[5.660920] (-) TimerEvent: {}
+[5.761722] (-) TimerEvent: {}
+[5.862505] (-) TimerEvent: {}
+[5.963355] (-) TimerEvent: {}
+[6.064030] (-) TimerEvent: {}
+[6.164759] (-) TimerEvent: {}
+[6.265491] (-) TimerEvent: {}
+[6.366281] (-) TimerEvent: {}
+[6.467089] (-) TimerEvent: {}
+[6.542969] (asignment_1_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[6.543830] (assignment_2_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[6.546988] (assignment_2_pkg) StdoutLine: {'line': b'writing ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/PKG-INFO\n'}
+[6.548741] (asignment_1_pkg) StdoutLine: {'line': b'writing ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/PKG-INFO\n'}
+[6.552123] (asignment_1_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/dependency_links.txt\n'}
+[6.552600] (assignment_2_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/dependency_links.txt\n'}
+[6.553067] (assignment_2_pkg) StdoutLine: {'line': b'writing entry points to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/entry_points.txt\n'}
+[6.553537] (asignment_1_pkg) StdoutLine: {'line': b'writing entry points to ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/entry_points.txt\n'}
+[6.554016] (assignment_2_pkg) StdoutLine: {'line': b'writing requirements to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/requires.txt\n'}
+[6.554585] (asignment_1_pkg) StdoutLine: {'line': b'writing requirements to ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/requires.txt\n'}
+[6.558159] (asignment_1_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/top_level.txt\n'}
+[6.558736] (assignment_2_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/top_level.txt\n'}
+[6.559382] (assignment_2_pkg) StdoutLine: {'line': b"reading manifest file '../../build/assignment_2_pkg/assignment_2_pkg.egg-info/SOURCES.txt'\n"}
+[6.559877] (asignment_1_pkg) StdoutLine: {'line': b"reading manifest file '../../build/asignment_1_pkg/asignment_1_pkg.egg-info/SOURCES.txt'\n"}
+[6.567264] (-) TimerEvent: {}
+[6.668145] (-) TimerEvent: {}
+[6.705341] (assignment_2_pkg) StdoutLine: {'line': b"writing manifest file '../../build/assignment_2_pkg/assignment_2_pkg.egg-info/SOURCES.txt'\n"}
+[6.705972] (asignment_1_pkg) StdoutLine: {'line': b"writing manifest file '../../build/asignment_1_pkg/asignment_1_pkg.egg-info/SOURCES.txt'\n"}
+[6.723741] (asignment_1_pkg) StdoutLine: {'line': b'running build\n'}
+[6.724862] (assignment_2_pkg) StdoutLine: {'line': b'running build\n'}
+[6.725821] (assignment_2_pkg) StdoutLine: {'line': b'running build_py\n'}
+[6.727256] (asignment_1_pkg) StdoutLine: {'line': b'running build_py\n'}
+[6.728271] (assignment_2_pkg) StdoutLine: {'line': b'copying assignment_2_pkg/wall_follower.py -> /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build/lib/assignment_2_pkg\n'}
+[6.729240] (asignment_1_pkg) StdoutLine: {'line': b'running install\n'}
+[6.730588] (assignment_2_pkg) StdoutLine: {'line': b'running install\n'}
+[6.731639] (asignment_1_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[6.732831] (assignment_2_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[6.738181] (assignment_2_pkg) StdoutLine: {'line': b'copying /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build/lib/assignment_2_pkg/wall_follower.py -> /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg\n'}
+[6.739108] (asignment_1_pkg) StdoutLine: {'line': b'running install_data\n'}
+[6.740170] (asignment_1_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.741399] (assignment_2_pkg) StdoutLine: {'line': b'byte-compiling /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg/wall_follower.py to wall_follower.cpython-310.pyc\n'}
+[6.745659] (assignment_2_pkg) StdoutLine: {'line': b'running install_data\n'}
+[6.746773] (assignment_2_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.749025] (asignment_1_pkg) StdoutLine: {'line': b"removing '/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages/asignment_1_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.750925] (asignment_1_pkg) StdoutLine: {'line': b'Copying ../../build/asignment_1_pkg/asignment_1_pkg.egg-info to /home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages/asignment_1_pkg-0.0.0-py3.10.egg-info\n'}
+[6.755443] (assignment_2_pkg) StdoutLine: {'line': b"removing '/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.757226] (assignment_2_pkg) StdoutLine: {'line': b'Copying ../../build/assignment_2_pkg/assignment_2_pkg.egg-info to /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg-0.0.0-py3.10.egg-info\n'}
+[6.768246] (-) TimerEvent: {}
+[6.869022] (-) TimerEvent: {}
+[6.959510] (asignment_1_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[6.960628] (assignment_2_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[6.969218] (-) TimerEvent: {}
+[7.060351] (asignment_1_pkg) StdoutLine: {'line': b'Installing laser_subscriber script to /home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/asignment_1_pkg\n'}
+[7.061085] (assignment_2_pkg) StdoutLine: {'line': b'Installing wall_follower script to /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/assignment_2_pkg\n'}
+[7.062245] (assignment_2_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/Gruppe4/ros2_ws/build/assignment_2_pkg/install.log'\n"}
+[7.062874] (asignment_1_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/Gruppe4/ros2_ws/build/asignment_1_pkg/install.log'\n"}
+[7.069781] (-) TimerEvent: {}
+[7.174969] (-) TimerEvent: {}
+[7.261509] (assignment_2_pkg) CommandEnded: {'returncode': 0}
+[7.275102] (-) TimerEvent: {}
+[7.376031] (-) TimerEvent: {}
+[7.477226] (-) TimerEvent: {}
+[7.685637] (-) TimerEvent: {}
+[7.786490] (-) TimerEvent: {}
+[7.887750] (-) TimerEvent: {}
+[7.988670] (-) TimerEvent: {}
+[8.089722] (-) TimerEvent: {}
+[8.185317] (assignment_2_pkg) JobEnded: {'identifier': 'assignment_2_pkg', 'rc': 0}
+[8.190477] (-) TimerEvent: {}
+[8.191034] (asignment_1_pkg) CommandEnded: {'returncode': 0}
+[8.220178] (asignment_1_pkg) JobEnded: {'identifier': 'asignment_1_pkg', 'rc': 0}
+[8.223258] (-) EventReactorShutdown: {}

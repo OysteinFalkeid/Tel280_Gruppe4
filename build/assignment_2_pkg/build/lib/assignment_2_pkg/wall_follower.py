@@ -26,7 +26,7 @@ class SimpleSubscriber(Node):
         self.y0 = (0.3 - 0.178/2)/2 + 0.178/2 # ca. 19.45 cm
         
         # Konstante verdier
-        self.speed_multiplier = 3.0
+        self.speed_multiplier = 1.0
         
         self.Ku = 2.0 * self.speed_multiplier
         self.Tu = 34.0 / (self.speed_multiplier)
