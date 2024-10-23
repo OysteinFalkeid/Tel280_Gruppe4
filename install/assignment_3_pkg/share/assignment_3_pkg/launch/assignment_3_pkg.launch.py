@@ -29,7 +29,7 @@ def generate_launch_description():
         TimerAction(
             actions = [
                 cartographer_slam_launch
-                # , assignment_2_launch
+                , assignment_2_launch
                 ], period = 5.0)
         ])
     
