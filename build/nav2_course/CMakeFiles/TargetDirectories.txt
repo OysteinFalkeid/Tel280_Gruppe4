@@ -1,0 +1,9 @@
+/home/Gruppe4/ros2_ws/build/nav2_course/CMakeFiles/uninstall.dir
+/home/Gruppe4/ros2_ws/build/nav2_course/CMakeFiles/nav2_course_uninstall.dir
+/home/Gruppe4/ros2_ws/build/nav2_course/CMakeFiles/test.dir
+/home/Gruppe4/ros2_ws/build/nav2_course/CMakeFiles/edit_cache.dir
+/home/Gruppe4/ros2_ws/build/nav2_course/CMakeFiles/rebuild_cache.dir
+/home/Gruppe4/ros2_ws/build/nav2_course/CMakeFiles/list_install_components.dir
+/home/Gruppe4/ros2_ws/build/nav2_course/CMakeFiles/install.dir
+/home/Gruppe4/ros2_ws/build/nav2_course/CMakeFiles/install/local.dir
+/home/Gruppe4/ros2_ws/build/nav2_course/CMakeFiles/install/strip.dir

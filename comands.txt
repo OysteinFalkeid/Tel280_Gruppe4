@@ -23,5 +23,7 @@ Starter pakken:
 
     ros2 run turtlebot3_teleop teleop_keyboard
 
+    ros2 launch cartographer_slam cartographer.launch.py
+
 Lagrer kartet:
     cd ~/ros2_ws/map && ros2 run nav2_map_server map_saver_cli -f assignment_3_map
