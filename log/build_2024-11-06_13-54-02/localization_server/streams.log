@@ -1,0 +1,20 @@
+[5.619s] Invoking command in '/home/Gruppe4/ros2_ws/src/localization_server': PYTHONPATH=/home/Gruppe4/ros2_ws/build/localization_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization_server build --build-base /home/Gruppe4/ros2_ws/build/localization_server/build install --record /home/Gruppe4/ros2_ws/build/localization_server/install.log --single-version-externally-managed install_data
+[8.366s] running egg_info
+[8.377s] writing ../../build/localization_server/localization_server.egg-info/PKG-INFO
+[8.382s] writing dependency_links to ../../build/localization_server/localization_server.egg-info/dependency_links.txt
+[8.387s] writing entry points to ../../build/localization_server/localization_server.egg-info/entry_points.txt
+[8.395s] writing requirements to ../../build/localization_server/localization_server.egg-info/requires.txt
+[8.400s] writing top-level names to ../../build/localization_server/localization_server.egg-info/top_level.txt
+[8.414s] reading manifest file '../../build/localization_server/localization_server.egg-info/SOURCES.txt'
+[8.425s] writing manifest file '../../build/localization_server/localization_server.egg-info/SOURCES.txt'
+[8.429s] running build
+[8.433s] running build_py
+[8.440s] running install
+[8.445s] running install_lib
+[8.456s] running install_data
+[8.462s] running install_egg_info
+[8.490s] removing '/home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages/localization_server-0.0.0-py3.10.egg-info' (and everything under it)
+[8.495s] Copying ../../build/localization_server/localization_server.egg-info to /home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages/localization_server-0.0.0-py3.10.egg-info
+[8.511s] running install_scripts
+[8.733s] writing list of installed files to '/home/Gruppe4/ros2_ws/build/localization_server/install.log'
+[9.551s] Invoked command in '/home/Gruppe4/ros2_ws/src/localization_server' returned '0': PYTHONPATH=/home/Gruppe4/ros2_ws/build/localization_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization_server build --build-base /home/Gruppe4/ros2_ws/build/localization_server/build install --record /home/Gruppe4/ros2_ws/build/localization_server/install.log --single-version-externally-managed install_data

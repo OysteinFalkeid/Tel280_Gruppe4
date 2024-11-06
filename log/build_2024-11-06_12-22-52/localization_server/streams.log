@@ -1,0 +1,42 @@
+[6.930s] Invoking command in '/home/Gruppe4/ros2_ws/src/localization_server': PYTHONPATH=/home/Gruppe4/ros2_ws/build/localization_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization_server build --build-base /home/Gruppe4/ros2_ws/build/localization_server/build install --record /home/Gruppe4/ros2_ws/build/localization_server/install.log --single-version-externally-managed install_data
+[8.254s] running egg_info
+[8.256s] creating ../../build/localization_server/localization_server.egg-info
+[8.260s] writing ../../build/localization_server/localization_server.egg-info/PKG-INFO
+[8.261s] writing dependency_links to ../../build/localization_server/localization_server.egg-info/dependency_links.txt
+[8.261s] writing entry points to ../../build/localization_server/localization_server.egg-info/entry_points.txt
+[8.266s] writing requirements to ../../build/localization_server/localization_server.egg-info/requires.txt
+[8.266s] writing top-level names to ../../build/localization_server/localization_server.egg-info/top_level.txt
+[8.267s] writing manifest file '../../build/localization_server/localization_server.egg-info/SOURCES.txt'
+[8.277s] reading manifest file '../../build/localization_server/localization_server.egg-info/SOURCES.txt'
+[8.286s] writing manifest file '../../build/localization_server/localization_server.egg-info/SOURCES.txt'
+[8.287s] running build
+[8.288s] running build_py
+[8.288s] creating /home/Gruppe4/ros2_ws/build/localization_server/build
+[8.292s] creating /home/Gruppe4/ros2_ws/build/localization_server/build/lib
+[8.293s] creating /home/Gruppe4/ros2_ws/build/localization_server/build/lib/localization_server
+[8.294s] copying localization_server/__init__.py -> /home/Gruppe4/ros2_ws/build/localization_server/build/lib/localization_server
+[8.299s] running install
+[8.300s] running install_lib
+[8.309s] creating /home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages/localization_server
+[8.309s] copying /home/Gruppe4/ros2_ws/build/localization_server/build/lib/localization_server/__init__.py -> /home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages/localization_server
+[8.310s] byte-compiling /home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages/localization_server/__init__.py to __init__.cpython-310.pyc
+[8.311s] running install_data
+[8.311s] creating /home/Gruppe4/ros2_ws/install/localization_server/share/ament_index
+[8.312s] creating /home/Gruppe4/ros2_ws/install/localization_server/share/ament_index/resource_index
+[8.312s] creating /home/Gruppe4/ros2_ws/install/localization_server/share/ament_index/resource_index/packages
+[8.438s] copying resource/localization_server -> /home/Gruppe4/ros2_ws/install/localization_server/share/ament_index/resource_index/packages
+[8.444s] copying package.xml -> /home/Gruppe4/ros2_ws/install/localization_server/share/localization_server
+[8.445s] creating /home/Gruppe4/ros2_ws/install/localization_server/share/localization_server/launch
+[8.447s] copying launch/localization.launch.py -> /home/Gruppe4/ros2_ws/install/localization_server/share/localization_server/launch
+[8.449s] creating /home/Gruppe4/ros2_ws/install/localization_server/share/localization_server/config
+[8.449s] copying config/recovery.yaml -> /home/Gruppe4/ros2_ws/install/localization_server/share/localization_server/config
+[8.459s] copying config/planner_server.yaml -> /home/Gruppe4/ros2_ws/install/localization_server/share/localization_server/config
+[8.462s] copying config/controller.yaml -> /home/Gruppe4/ros2_ws/install/localization_server/share/localization_server/config
+[8.463s] copying config/behavior.xml -> /home/Gruppe4/ros2_ws/install/localization_server/share/localization_server/config
+[8.465s] copying config/amcl_config.yaml -> /home/Gruppe4/ros2_ws/install/localization_server/share/localization_server/config
+[8.474s] copying config/bt_navigator.yaml -> /home/Gruppe4/ros2_ws/install/localization_server/share/localization_server/config
+[8.476s] running install_egg_info
+[8.477s] Copying ../../build/localization_server/localization_server.egg-info to /home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages/localization_server-0.0.0-py3.10.egg-info
+[8.480s] running install_scripts
+[8.563s] writing list of installed files to '/home/Gruppe4/ros2_ws/build/localization_server/install.log'
+[8.810s] Invoked command in '/home/Gruppe4/ros2_ws/src/localization_server' returned '0': PYTHONPATH=/home/Gruppe4/ros2_ws/build/localization_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization_server build --build-base /home/Gruppe4/ros2_ws/build/localization_server/build install --record /home/Gruppe4/ros2_ws/build/localization_server/install.log --single-version-externally-managed install_data

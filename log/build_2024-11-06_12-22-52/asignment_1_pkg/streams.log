@@ -1,0 +1,21 @@
+[7.765s] Invoking command in '/home/Gruppe4/ros2_ws/src/asignment_1_pkg': PYTHONPATH=/home/Gruppe4/ros2_ws/build/asignment_1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/asignment_1_pkg build --build-base /home/Gruppe4/ros2_ws/build/asignment_1_pkg/build install --record /home/Gruppe4/ros2_ws/build/asignment_1_pkg/install.log --single-version-externally-managed install_data
+[9.297s] running egg_info
+[9.301s] writing ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/PKG-INFO
+[9.304s] writing dependency_links to ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/dependency_links.txt
+[9.306s] writing entry points to ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/entry_points.txt
+[9.306s] writing requirements to ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/requires.txt
+[9.307s] writing top-level names to ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/top_level.txt
+[9.316s] reading manifest file '../../build/asignment_1_pkg/asignment_1_pkg.egg-info/SOURCES.txt'
+[9.462s] writing manifest file '../../build/asignment_1_pkg/asignment_1_pkg.egg-info/SOURCES.txt'
+[9.464s] running build
+[9.465s] running build_py
+[9.467s] running install
+[9.469s] running install_lib
+[9.476s] running install_data
+[9.477s] running install_egg_info
+[9.485s] removing '/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages/asignment_1_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[9.488s] Copying ../../build/asignment_1_pkg/asignment_1_pkg.egg-info to /home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages/asignment_1_pkg-0.0.0-py3.10.egg-info
+[9.709s] running install_scripts
+[9.889s] Installing laser_subscriber script to /home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/asignment_1_pkg
+[9.895s] writing list of installed files to '/home/Gruppe4/ros2_ws/build/asignment_1_pkg/install.log'
+[11.085s] Invoked command in '/home/Gruppe4/ros2_ws/src/asignment_1_pkg' returned '0': PYTHONPATH=/home/Gruppe4/ros2_ws/build/asignment_1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/asignment_1_pkg build --build-base /home/Gruppe4/ros2_ws/build/asignment_1_pkg/build install --record /home/Gruppe4/ros2_ws/build/asignment_1_pkg/install.log --single-version-externally-managed install_data
