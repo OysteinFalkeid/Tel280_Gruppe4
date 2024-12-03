@@ -1,0 +1,574 @@
+[0.000000] (-) TimerEvent: {}
+[0.001714] (asignment_1_pkg) JobQueued: {'identifier': 'asignment_1_pkg', 'dependencies': OrderedDict()}
+[0.001910] (assignment_2_pkg) JobQueued: {'identifier': 'assignment_2_pkg', 'dependencies': OrderedDict()}
+[0.001998] (assignment_3_pkg) JobQueued: {'identifier': 'assignment_3_pkg', 'dependencies': OrderedDict()}
+[0.002077] (cartographer_slam) JobQueued: {'identifier': 'cartographer_slam', 'dependencies': OrderedDict()}
+[0.002155] (nav2_course) JobQueued: {'identifier': 'nav2_course', 'dependencies': OrderedDict()}
+[0.002235] (nav2_project) JobQueued: {'identifier': 'nav2_project', 'dependencies': OrderedDict()}
+[0.002312] (path_planner_server) JobQueued: {'identifier': 'path_planner_server', 'dependencies': OrderedDict()}
+[0.002391] (asignment_1_pkg) JobStarted: {'identifier': 'asignment_1_pkg'}
+[0.053795] (assignment_2_pkg) JobStarted: {'identifier': 'assignment_2_pkg'}
+[0.086768] (assignment_3_pkg) JobStarted: {'identifier': 'assignment_3_pkg'}
+[0.096789] (-) TimerEvent: {}
+[0.115640] (cartographer_slam) JobStarted: {'identifier': 'cartographer_slam'}
+[0.196982] (-) TimerEvent: {}
+[0.297841] (-) TimerEvent: {}
+[0.398822] (-) TimerEvent: {}
+[0.499729] (-) TimerEvent: {}
+[0.600826] (-) TimerEvent: {}
+[0.701733] (-) TimerEvent: {}
+[0.802631] (-) TimerEvent: {}
+[0.903585] (-) TimerEvent: {}
+[1.004547] (-) TimerEvent: {}
+[1.105464] (-) TimerEvent: {}
+[1.206693] (-) TimerEvent: {}
+[1.307729] (-) TimerEvent: {}
+[1.408531] (-) TimerEvent: {}
+[1.509406] (-) TimerEvent: {}
+[1.610626] (-) TimerEvent: {}
+[1.711315] (-) TimerEvent: {}
+[1.812050] (-) TimerEvent: {}
+[1.912728] (-) TimerEvent: {}
+[2.013388] (-) TimerEvent: {}
+[2.114054] (-) TimerEvent: {}
+[2.214835] (-) TimerEvent: {}
+[2.315629] (-) TimerEvent: {}
+[2.416333] (-) TimerEvent: {}
+[2.517078] (-) TimerEvent: {}
+[2.617921] (-) TimerEvent: {}
+[2.719300] (-) TimerEvent: {}
+[2.820061] (-) TimerEvent: {}
+[2.920787] (-) TimerEvent: {}
+[3.021505] (-) TimerEvent: {}
+[3.122178] (-) TimerEvent: {}
+[3.222846] (-) TimerEvent: {}
+[3.323544] (-) TimerEvent: {}
+[3.424247] (-) TimerEvent: {}
+[3.524894] (-) TimerEvent: {}
+[3.625812] (-) TimerEvent: {}
+[3.726912] (-) TimerEvent: {}
+[3.827657] (-) TimerEvent: {}
+[3.928513] (-) TimerEvent: {}
+[4.029382] (-) TimerEvent: {}
+[4.130082] (-) TimerEvent: {}
+[4.230740] (-) TimerEvent: {}
+[4.331407] (-) TimerEvent: {}
+[4.432124] (-) TimerEvent: {}
+[4.532811] (-) TimerEvent: {}
+[4.633488] (-) TimerEvent: {}
+[4.734572] (-) TimerEvent: {}
+[4.835422] (-) TimerEvent: {}
+[4.939007] (-) TimerEvent: {}
+[5.049833] (-) TimerEvent: {}
+[5.151376] (-) TimerEvent: {}
+[5.252679] (-) TimerEvent: {}
+[5.353655] (-) TimerEvent: {}
+[5.455885] (-) TimerEvent: {}
+[5.557854] (-) TimerEvent: {}
+[5.660144] (-) TimerEvent: {}
+[5.761900] (-) TimerEvent: {}
+[5.864173] (-) TimerEvent: {}
+[5.966030] (-) TimerEvent: {}
+[6.067820] (-) TimerEvent: {}
+[6.169897] (-) TimerEvent: {}
+[6.272097] (-) TimerEvent: {}
+[6.374141] (-) TimerEvent: {}
+[6.475098] (-) TimerEvent: {}
+[6.576334] (-) TimerEvent: {}
+[6.677188] (-) TimerEvent: {}
+[6.778010] (-) TimerEvent: {}
+[6.879227] (-) TimerEvent: {}
+[6.980688] (-) TimerEvent: {}
+[7.082203] (-) TimerEvent: {}
+[7.174036] (assignment_3_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/assignment_3_pkg', 'build', '--build-base', '/home/Gruppe4/ros2_ws/build/assignment_3_pkg/build', 'install', '--record', '/home/Gruppe4/ros2_ws/build/assignment_3_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/Gruppe4/ros2_ws/OLD_src/assignment_3_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'Gruppe4', 'SSH_CLIENT': 'fe80::563b:1712:759a:af10%wlan0 56488 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/Gruppe4', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b4e114a1-7a32-4943-b8c1-8f0a0fb4ac3b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install:/home/Gruppe4/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'Gruppe4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-80a98d6374.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '4', 'AMENT_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install/path_planner_server:/home/Gruppe4/ros2_ws/install/nav2_project:/home/Gruppe4/ros2_ws/install/nav2_course:/home/Gruppe4/ros2_ws/install/map_server:/home/Gruppe4/ros2_ws/install/localization_server:/home/Gruppe4/ros2_ws/install/cartographer_slam:/home/Gruppe4/ros2_ws/install/assignment_3_pkg:/home/Gruppe4/ros2_ws/install/assignment_2_pkg:/home/Gruppe4/ros2_ws/install/asignment_1_pkg:/home/Gruppe4/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/Gruppe4/ros2_ws/build/assignment_3_pkg', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::563b:1712:759a:af10%wlan0 56488 fe80::e65f:1ff:fec3:cc3d%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/Gruppe4/ros2_ws/build/assignment_3_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/assignment_3_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/path_planner_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/map_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_3_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install/nav2_course:/home/Gruppe4/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[7.196001] (-) TimerEvent: {}
+[7.298149] (-) TimerEvent: {}
+[7.400796] (-) TimerEvent: {}
+[7.502971] (-) TimerEvent: {}
+[7.605318] (-) TimerEvent: {}
+[7.707583] (-) TimerEvent: {}
+[7.809608] (-) TimerEvent: {}
+[7.911617] (-) TimerEvent: {}
+[8.013496] (-) TimerEvent: {}
+[8.115931] (-) TimerEvent: {}
+[8.220503] (-) TimerEvent: {}
+[8.270051] (asignment_1_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/asignment_1_pkg', 'build', '--build-base', '/home/Gruppe4/ros2_ws/build/asignment_1_pkg/build', 'install', '--record', '/home/Gruppe4/ros2_ws/build/asignment_1_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/Gruppe4/ros2_ws/OLD_src/asignment_1_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'Gruppe4', 'SSH_CLIENT': 'fe80::563b:1712:759a:af10%wlan0 56488 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/Gruppe4', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b4e114a1-7a32-4943-b8c1-8f0a0fb4ac3b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install:/home/Gruppe4/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'Gruppe4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-80a98d6374.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '4', 'AMENT_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install/path_planner_server:/home/Gruppe4/ros2_ws/install/nav2_project:/home/Gruppe4/ros2_ws/install/nav2_course:/home/Gruppe4/ros2_ws/install/map_server:/home/Gruppe4/ros2_ws/install/localization_server:/home/Gruppe4/ros2_ws/install/cartographer_slam:/home/Gruppe4/ros2_ws/install/assignment_3_pkg:/home/Gruppe4/ros2_ws/install/assignment_2_pkg:/home/Gruppe4/ros2_ws/install/asignment_1_pkg:/home/Gruppe4/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/Gruppe4/ros2_ws/build/asignment_1_pkg', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::563b:1712:759a:af10%wlan0 56488 fe80::e65f:1ff:fec3:cc3d%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/Gruppe4/ros2_ws/build/asignment_1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/path_planner_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/map_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_3_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install/nav2_course:/home/Gruppe4/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[8.320751] (-) TimerEvent: {}
+[8.421828] (-) TimerEvent: {}
+[8.522997] (-) TimerEvent: {}
+[8.624113] (-) TimerEvent: {}
+[8.725201] (-) TimerEvent: {}
+[8.827463] (-) TimerEvent: {}
+[8.929698] (-) TimerEvent: {}
+[8.954404] (assignment_2_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/assignment_2_pkg', 'build', '--build-base', '/home/Gruppe4/ros2_ws/build/assignment_2_pkg/build', 'install', '--record', '/home/Gruppe4/ros2_ws/build/assignment_2_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/Gruppe4/ros2_ws/OLD_src/assignment_2_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'Gruppe4', 'SSH_CLIENT': 'fe80::563b:1712:759a:af10%wlan0 56488 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/Gruppe4', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b4e114a1-7a32-4943-b8c1-8f0a0fb4ac3b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install:/home/Gruppe4/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'Gruppe4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-80a98d6374.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '4', 'AMENT_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install/path_planner_server:/home/Gruppe4/ros2_ws/install/nav2_project:/home/Gruppe4/ros2_ws/install/nav2_course:/home/Gruppe4/ros2_ws/install/map_server:/home/Gruppe4/ros2_ws/install/localization_server:/home/Gruppe4/ros2_ws/install/cartographer_slam:/home/Gruppe4/ros2_ws/install/assignment_3_pkg:/home/Gruppe4/ros2_ws/install/assignment_2_pkg:/home/Gruppe4/ros2_ws/install/asignment_1_pkg:/home/Gruppe4/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/Gruppe4/ros2_ws/build/assignment_2_pkg', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::563b:1712:759a:af10%wlan0 56488 fe80::e65f:1ff:fec3:cc3d%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/Gruppe4/ros2_ws/build/assignment_2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/path_planner_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/map_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_3_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install/nav2_course:/home/Gruppe4/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[9.030148] (-) TimerEvent: {}
+[9.131527] (-) TimerEvent: {}
+[9.233526] (-) TimerEvent: {}
+[9.254234] (cartographer_slam) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/cartographer_slam', 'build', '--build-base', '/home/Gruppe4/ros2_ws/build/cartographer_slam/build', 'install', '--record', '/home/Gruppe4/ros2_ws/build/cartographer_slam/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/Gruppe4/ros2_ws/src/cartographer_slam', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'Gruppe4', 'SSH_CLIENT': 'fe80::563b:1712:759a:af10%wlan0 56488 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/Gruppe4', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b4e114a1-7a32-4943-b8c1-8f0a0fb4ac3b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install:/home/Gruppe4/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'Gruppe4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-80a98d6374.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '4', 'AMENT_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install/path_planner_server:/home/Gruppe4/ros2_ws/install/nav2_project:/home/Gruppe4/ros2_ws/install/nav2_course:/home/Gruppe4/ros2_ws/install/map_server:/home/Gruppe4/ros2_ws/install/localization_server:/home/Gruppe4/ros2_ws/install/cartographer_slam:/home/Gruppe4/ros2_ws/install/assignment_3_pkg:/home/Gruppe4/ros2_ws/install/assignment_2_pkg:/home/Gruppe4/ros2_ws/install/asignment_1_pkg:/home/Gruppe4/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/Gruppe4/ros2_ws/build/cartographer_slam', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::563b:1712:759a:af10%wlan0 56488 fe80::e65f:1ff:fec3:cc3d%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/Gruppe4/ros2_ws/build/cartographer_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/path_planner_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/map_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_3_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install/nav2_course:/home/Gruppe4/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[9.333771] (-) TimerEvent: {}
+[9.435732] (-) TimerEvent: {}
+[9.537867] (-) TimerEvent: {}
+[9.640643] (-) TimerEvent: {}
+[9.742822] (-) TimerEvent: {}
+[9.844990] (-) TimerEvent: {}
+[9.947061] (-) TimerEvent: {}
+[10.049144] (-) TimerEvent: {}
+[10.154000] (-) TimerEvent: {}
+[10.259968] (-) TimerEvent: {}
+[10.362121] (-) TimerEvent: {}
+[10.377401] (asignment_1_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[10.381547] (asignment_1_pkg) StdoutLine: {'line': b'creating ../../build/asignment_1_pkg/asignment_1_pkg.egg-info\n'}
+[10.382518] (asignment_1_pkg) StdoutLine: {'line': b'writing ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/PKG-INFO\n'}
+[10.384657] (asignment_1_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/dependency_links.txt\n'}
+[10.385573] (asignment_1_pkg) StdoutLine: {'line': b'writing entry points to ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/entry_points.txt\n'}
+[10.386451] (asignment_1_pkg) StdoutLine: {'line': b'writing requirements to ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/requires.txt\n'}
+[10.387268] (asignment_1_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/asignment_1_pkg/asignment_1_pkg.egg-info/top_level.txt\n'}
+[10.388340] (asignment_1_pkg) StdoutLine: {'line': b"writing manifest file '../../build/asignment_1_pkg/asignment_1_pkg.egg-info/SOURCES.txt'\n"}
+[10.397264] (asignment_1_pkg) StdoutLine: {'line': b"reading manifest file '../../build/asignment_1_pkg/asignment_1_pkg.egg-info/SOURCES.txt'\n"}
+[10.402533] (asignment_1_pkg) StdoutLine: {'line': b"writing manifest file '../../build/asignment_1_pkg/asignment_1_pkg.egg-info/SOURCES.txt'\n"}
+[10.403606] (asignment_1_pkg) StdoutLine: {'line': b'running build\n'}
+[10.404837] (asignment_1_pkg) StdoutLine: {'line': b'running build_py\n'}
+[10.405675] (asignment_1_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/build/asignment_1_pkg/build\n'}
+[10.406324] (asignment_1_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/build/asignment_1_pkg/build/lib\n'}
+[10.406929] (asignment_1_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/build/asignment_1_pkg/build/lib/asignment_1_pkg\n'}
+[10.407438] (asignment_1_pkg) StdoutLine: {'line': b'copying asignment_1_pkg/__init__.py -> /home/Gruppe4/ros2_ws/build/asignment_1_pkg/build/lib/asignment_1_pkg\n'}
+[10.408662] (asignment_1_pkg) StdoutLine: {'line': b'copying asignment_1_pkg/laser_subscriber.py -> /home/Gruppe4/ros2_ws/build/asignment_1_pkg/build/lib/asignment_1_pkg\n'}
+[10.409397] (asignment_1_pkg) StdoutLine: {'line': b'running install\n'}
+[10.410233] (asignment_1_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[10.413739] (asignment_1_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages/asignment_1_pkg\n'}
+[10.414844] (asignment_1_pkg) StdoutLine: {'line': b'copying /home/Gruppe4/ros2_ws/build/asignment_1_pkg/build/lib/asignment_1_pkg/__init__.py -> /home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages/asignment_1_pkg\n'}
+[10.415735] (asignment_1_pkg) StdoutLine: {'line': b'copying /home/Gruppe4/ros2_ws/build/asignment_1_pkg/build/lib/asignment_1_pkg/laser_subscriber.py -> /home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages/asignment_1_pkg\n'}
+[10.418690] (asignment_1_pkg) StdoutLine: {'line': b'byte-compiling /home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages/asignment_1_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[10.420520] (asignment_1_pkg) StdoutLine: {'line': b'byte-compiling /home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages/asignment_1_pkg/laser_subscriber.py to laser_subscriber.cpython-310.pyc\n'}
+[10.422962] (asignment_1_pkg) StdoutLine: {'line': b'running install_data\n'}
+[10.424623] (asignment_1_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/asignment_1_pkg/share/ament_index\n'}
+[10.426008] (asignment_1_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/asignment_1_pkg/share/ament_index/resource_index\n'}
+[10.427981] (asignment_1_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/asignment_1_pkg/share/ament_index/resource_index/packages\n'}
+[10.429056] (asignment_1_pkg) StdoutLine: {'line': b'copying resource/asignment_1_pkg -> /home/Gruppe4/ros2_ws/install/asignment_1_pkg/share/ament_index/resource_index/packages\n'}
+[10.439151] (asignment_1_pkg) StdoutLine: {'line': b'copying package.xml -> /home/Gruppe4/ros2_ws/install/asignment_1_pkg/share/asignment_1_pkg\n'}
+[10.439870] (asignment_1_pkg) StdoutLine: {'line': b'copying launch/laser_subscriber.launch.py -> /home/Gruppe4/ros2_ws/install/asignment_1_pkg/share/asignment_1_pkg\n'}
+[10.440829] (asignment_1_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.441394] (asignment_1_pkg) StdoutLine: {'line': b'Copying ../../build/asignment_1_pkg/asignment_1_pkg.egg-info to /home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages/asignment_1_pkg-0.0.0-py3.10.egg-info\n'}
+[10.447852] (asignment_1_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[10.462280] (-) TimerEvent: {}
+[10.564454] (-) TimerEvent: {}
+[10.566601] (asignment_1_pkg) StdoutLine: {'line': b'Installing laser_subscriber script to /home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/asignment_1_pkg\n'}
+[10.568073] (asignment_1_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/Gruppe4/ros2_ws/build/asignment_1_pkg/install.log'\n"}
+[10.664770] (-) TimerEvent: {}
+[10.761458] (asignment_1_pkg) CommandEnded: {'returncode': 0}
+[10.765009] (-) TimerEvent: {}
+[10.792568] (assignment_3_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[10.793516] (assignment_3_pkg) StdoutLine: {'line': b'creating ../../build/assignment_3_pkg/assignment_3_pkg.egg-info\n'}
+[10.794176] (assignment_3_pkg) StdoutLine: {'line': b'writing ../../build/assignment_3_pkg/assignment_3_pkg.egg-info/PKG-INFO\n'}
+[10.796409] (assignment_3_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/assignment_3_pkg/assignment_3_pkg.egg-info/dependency_links.txt\n'}
+[10.798595] (assignment_3_pkg) StdoutLine: {'line': b'writing entry points to ../../build/assignment_3_pkg/assignment_3_pkg.egg-info/entry_points.txt\n'}
+[10.800895] (assignment_3_pkg) StdoutLine: {'line': b'writing requirements to ../../build/assignment_3_pkg/assignment_3_pkg.egg-info/requires.txt\n'}
+[10.802858] (assignment_3_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/assignment_3_pkg/assignment_3_pkg.egg-info/top_level.txt\n'}
+[10.810720] (assignment_3_pkg) StdoutLine: {'line': b"writing manifest file '../../build/assignment_3_pkg/assignment_3_pkg.egg-info/SOURCES.txt'\n"}
+[10.814977] (assignment_3_pkg) StdoutLine: {'line': b"reading manifest file '../../build/assignment_3_pkg/assignment_3_pkg.egg-info/SOURCES.txt'\n"}
+[10.820603] (assignment_3_pkg) StdoutLine: {'line': b"writing manifest file '../../build/assignment_3_pkg/assignment_3_pkg.egg-info/SOURCES.txt'\n"}
+[10.835113] (assignment_3_pkg) StdoutLine: {'line': b'running build\n'}
+[10.836342] (assignment_3_pkg) StdoutLine: {'line': b'running build_py\n'}
+[10.839635] (assignment_3_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/build/assignment_3_pkg/build\n'}
+[10.840705] (assignment_3_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/build/assignment_3_pkg/build/lib\n'}
+[10.841544] (assignment_3_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/build/assignment_3_pkg/build/lib/assignment_3_pkg\n'}
+[10.842160] (assignment_3_pkg) StdoutLine: {'line': b'copying assignment_3_pkg/__init__.py -> /home/Gruppe4/ros2_ws/build/assignment_3_pkg/build/lib/assignment_3_pkg\n'}
+[10.842668] (assignment_3_pkg) StdoutLine: {'line': b'running install\n'}
+[10.845147] (assignment_3_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[10.852202] (assignment_3_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/assignment_3_pkg/lib/python3.10/site-packages/assignment_3_pkg\n'}
+[10.853734] (assignment_3_pkg) StdoutLine: {'line': b'copying /home/Gruppe4/ros2_ws/build/assignment_3_pkg/build/lib/assignment_3_pkg/__init__.py -> /home/Gruppe4/ros2_ws/install/assignment_3_pkg/lib/python3.10/site-packages/assignment_3_pkg\n'}
+[10.857844] (assignment_3_pkg) StdoutLine: {'line': b'byte-compiling /home/Gruppe4/ros2_ws/install/assignment_3_pkg/lib/python3.10/site-packages/assignment_3_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[10.859593] (assignment_3_pkg) StdoutLine: {'line': b'running install_data\n'}
+[10.860717] (assignment_3_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/assignment_3_pkg/share/ament_index\n'}
+[10.864205] (assignment_3_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/assignment_3_pkg/share/ament_index/resource_index\n'}
+[10.865167] (-) TimerEvent: {}
+[10.868098] (assignment_3_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/assignment_3_pkg/share/ament_index/resource_index/packages\n'}
+[10.871580] (assignment_3_pkg) StdoutLine: {'line': b'copying resource/assignment_3_pkg -> /home/Gruppe4/ros2_ws/install/assignment_3_pkg/share/ament_index/resource_index/packages\n'}
+[10.872812] (assignment_3_pkg) StdoutLine: {'line': b'copying package.xml -> /home/Gruppe4/ros2_ws/install/assignment_3_pkg/share/assignment_3_pkg\n'}
+[10.873522] (assignment_3_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/assignment_3_pkg/share/assignment_3_pkg/launch\n'}
+[10.875050] (assignment_3_pkg) StdoutLine: {'line': b'copying launch/assignment_3_pkg.launch.py -> /home/Gruppe4/ros2_ws/install/assignment_3_pkg/share/assignment_3_pkg/launch\n'}
+[10.877210] (assignment_3_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.900181] (assignment_3_pkg) StdoutLine: {'line': b'Copying ../../build/assignment_3_pkg/assignment_3_pkg.egg-info to /home/Gruppe4/ros2_ws/install/assignment_3_pkg/lib/python3.10/site-packages/assignment_3_pkg-0.0.0-py3.10.egg-info\n'}
+[10.904400] (assignment_3_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[10.940847] (asignment_1_pkg) JobEnded: {'identifier': 'asignment_1_pkg', 'rc': 0}
+[10.944141] (nav2_course) JobStarted: {'identifier': 'nav2_course'}
+[10.968496] (-) TimerEvent: {}
+[11.069650] (-) TimerEvent: {}
+[11.085832] (nav2_course) JobProgress: {'identifier': 'nav2_course', 'progress': 'cmake'}
+[11.088653] (nav2_course) Command: {'cmd': ['/usr/bin/cmake', '/home/Gruppe4/ros2_ws/src/ros2_nav_files/nav2_course', '-DCMAKE_INSTALL_PREFIX=/home/Gruppe4/ros2_ws/install/nav2_course'], 'cwd': '/home/Gruppe4/ros2_ws/build/nav2_course', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'Gruppe4'), ('SSH_CLIENT', 'fe80::563b:1712:759a:af10%wlan0 56488 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/Gruppe4'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b4e114a1-7a32-4943-b8c1-8f0a0fb4ac3b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/Gruppe4/ros2_ws/install:/home/Gruppe4/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'Gruppe4'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-80a98d6374.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '4'), ('AMENT_PREFIX_PATH', '/home/Gruppe4/ros2_ws/install/path_planner_server:/home/Gruppe4/ros2_ws/install/nav2_project:/home/Gruppe4/ros2_ws/install/nav2_course:/home/Gruppe4/ros2_ws/install/map_server:/home/Gruppe4/ros2_ws/install/localization_server:/home/Gruppe4/ros2_ws/install/cartographer_slam:/home/Gruppe4/ros2_ws/install/assignment_3_pkg:/home/Gruppe4/ros2_ws/install/assignment_2_pkg:/home/Gruppe4/ros2_ws/install/asignment_1_pkg:/home/Gruppe4/turtlebot3_ws/install/ld08_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/Gruppe4/ros2_ws/build/nav2_course'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', 'fe80::563b:1712:759a:af10%wlan0 56488 fe80::e65f:1ff:fec3:cc3d%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/Gruppe4/ros2_ws/install/path_planner_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/map_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_3_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/Gruppe4/ros2_ws/install/nav2_course:/home/Gruppe4/turtlebot3_ws/install/ld08_driver:/home/Gruppe4/ros2_ws/install/path_planner_server:/home/Gruppe4/ros2_ws/install/nav2_project:/home/Gruppe4/ros2_ws/install/map_server:/home/Gruppe4/ros2_ws/install/localization_server:/home/Gruppe4/ros2_ws/install/cartographer_slam:/home/Gruppe4/ros2_ws/install/assignment_3_pkg:/home/Gruppe4/ros2_ws/install/assignment_2_pkg:/home/Gruppe4/ros2_ws/install/asignment_1_pkg:/opt/ros/humble')]), 'shell': False}
+[11.169865] (-) TimerEvent: {}
+[11.186301] (assignment_3_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/Gruppe4/ros2_ws/build/assignment_3_pkg/install.log'\n"}
+[11.270311] (-) TimerEvent: {}
+[11.371581] (-) TimerEvent: {}
+[11.472727] (-) TimerEvent: {}
+[11.521305] (assignment_3_pkg) CommandEnded: {'returncode': 0}
+[11.573497] (-) TimerEvent: {}
+[11.611809] (assignment_3_pkg) JobEnded: {'identifier': 'assignment_3_pkg', 'rc': 0}
+[11.615075] (nav2_project) JobStarted: {'identifier': 'nav2_project'}
+[11.646034] (assignment_2_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[11.649519] (assignment_2_pkg) StdoutLine: {'line': b'creating ../../build/assignment_2_pkg/assignment_2_pkg.egg-info\n'}
+[11.650484] (assignment_2_pkg) StdoutLine: {'line': b'writing ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/PKG-INFO\n'}
+[11.652048] (assignment_2_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/dependency_links.txt\n'}
+[11.653207] (assignment_2_pkg) StdoutLine: {'line': b'writing entry points to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/entry_points.txt\n'}
+[11.654123] (assignment_2_pkg) StdoutLine: {'line': b'writing requirements to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/requires.txt\n'}
+[11.654890] (assignment_2_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/top_level.txt\n'}
+[11.656334] (assignment_2_pkg) StdoutLine: {'line': b"writing manifest file '../../build/assignment_2_pkg/assignment_2_pkg.egg-info/SOURCES.txt'\n"}
+[11.677816] (-) TimerEvent: {}
+[11.679688] (assignment_2_pkg) StdoutLine: {'line': b"reading manifest file '../../build/assignment_2_pkg/assignment_2_pkg.egg-info/SOURCES.txt'\n"}
+[11.680798] (assignment_2_pkg) StdoutLine: {'line': b"writing manifest file '../../build/assignment_2_pkg/assignment_2_pkg.egg-info/SOURCES.txt'\n"}
+[11.681517] (assignment_2_pkg) StdoutLine: {'line': b'running build\n'}
+[11.682610] (assignment_2_pkg) StdoutLine: {'line': b'running build_py\n'}
+[11.683265] (assignment_2_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build\n'}
+[11.684043] (assignment_2_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build/lib\n'}
+[11.686603] (assignment_2_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build/lib/assignment_2_pkg\n'}
+[11.688891] (assignment_2_pkg) StdoutLine: {'line': b'copying assignment_2_pkg/__init__.py -> /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build/lib/assignment_2_pkg\n'}
+[11.689521] (assignment_2_pkg) StdoutLine: {'line': b'copying assignment_2_pkg/wall_follower.py -> /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build/lib/assignment_2_pkg\n'}
+[11.689983] (assignment_2_pkg) StdoutLine: {'line': b'running install\n'}
+[11.690480] (assignment_2_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[11.691118] (assignment_2_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg\n'}
+[11.691733] (assignment_2_pkg) StdoutLine: {'line': b'copying /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build/lib/assignment_2_pkg/__init__.py -> /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg\n'}
+[11.694302] (assignment_2_pkg) StdoutLine: {'line': b'copying /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build/lib/assignment_2_pkg/wall_follower.py -> /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg\n'}
+[11.694952] (assignment_2_pkg) StdoutLine: {'line': b'byte-compiling /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[11.695611] (assignment_2_pkg) StdoutLine: {'line': b'byte-compiling /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg/wall_follower.py to wall_follower.cpython-310.pyc\n'}
+[11.700313] (assignment_2_pkg) StdoutLine: {'line': b'running install_data\n'}
+[11.701158] (assignment_2_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/assignment_2_pkg/share/ament_index\n'}
+[11.701975] (assignment_2_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/assignment_2_pkg/share/ament_index/resource_index\n'}
+[11.702684] (assignment_2_pkg) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/assignment_2_pkg/share/ament_index/resource_index/packages\n'}
+[11.703594] (assignment_2_pkg) StdoutLine: {'line': b'copying resource/assignment_2_pkg -> /home/Gruppe4/ros2_ws/install/assignment_2_pkg/share/ament_index/resource_index/packages\n'}
+[11.704367] (assignment_2_pkg) StdoutLine: {'line': b'copying package.xml -> /home/Gruppe4/ros2_ws/install/assignment_2_pkg/share/assignment_2_pkg\n'}
+[11.704952] (assignment_2_pkg) StdoutLine: {'line': b'copying launch/assignment_2_launch_file.launch.py -> /home/Gruppe4/ros2_ws/install/assignment_2_pkg/share/assignment_2_pkg\n'}
+[11.705466] (assignment_2_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.752572] (assignment_2_pkg) StdoutLine: {'line': b'Copying ../../build/assignment_2_pkg/assignment_2_pkg.egg-info to /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg-0.0.0-py3.10.egg-info\n'}
+[11.753308] (assignment_2_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[11.778089] (-) TimerEvent: {}
+[11.860205] (assignment_2_pkg) StdoutLine: {'line': b'Installing wall_follower script to /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/assignment_2_pkg\n'}
+[11.863217] (assignment_2_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/Gruppe4/ros2_ws/build/assignment_2_pkg/install.log'\n"}
+[11.878439] (-) TimerEvent: {}
+[11.982030] (-) TimerEvent: {}
+[12.085856] (-) TimerEvent: {}
+[12.188213] (-) TimerEvent: {}
+[12.227838] (cartographer_slam) StdoutLine: {'line': b'running egg_info\n'}
+[12.234024] (cartographer_slam) StdoutLine: {'line': b'creating ../../build/cartographer_slam/cartographer_slam.egg-info\n'}
+[12.249281] (cartographer_slam) StdoutLine: {'line': b'writing ../../build/cartographer_slam/cartographer_slam.egg-info/PKG-INFO\n'}
+[12.252649] (cartographer_slam) StdoutLine: {'line': b'writing dependency_links to ../../build/cartographer_slam/cartographer_slam.egg-info/dependency_links.txt\n'}
+[12.255006] (cartographer_slam) StdoutLine: {'line': b'writing entry points to ../../build/cartographer_slam/cartographer_slam.egg-info/entry_points.txt\n'}
+[12.257378] (cartographer_slam) StdoutLine: {'line': b'writing requirements to ../../build/cartographer_slam/cartographer_slam.egg-info/requires.txt\n'}
+[12.259561] (cartographer_slam) StdoutLine: {'line': b'writing top-level names to ../../build/cartographer_slam/cartographer_slam.egg-info/top_level.txt\n'}
+[12.263067] (cartographer_slam) StdoutLine: {'line': b"writing manifest file '../../build/cartographer_slam/cartographer_slam.egg-info/SOURCES.txt'\n"}
+[12.275222] (cartographer_slam) StdoutLine: {'line': b"reading manifest file '../../build/cartographer_slam/cartographer_slam.egg-info/SOURCES.txt'\n"}
+[12.288524] (-) TimerEvent: {}
+[12.310847] (cartographer_slam) StdoutLine: {'line': b"writing manifest file '../../build/cartographer_slam/cartographer_slam.egg-info/SOURCES.txt'\n"}
+[12.311896] (cartographer_slam) StdoutLine: {'line': b'running build\n'}
+[12.312867] (cartographer_slam) StdoutLine: {'line': b'running build_py\n'}
+[12.313529] (cartographer_slam) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/build/cartographer_slam/build\n'}
+[12.314360] (cartographer_slam) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/build/cartographer_slam/build/lib\n'}
+[12.315356] (cartographer_slam) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/build/cartographer_slam/build/lib/cartographer_slam\n'}
+[12.316128] (cartographer_slam) StdoutLine: {'line': b'copying cartographer_slam/__init__.py -> /home/Gruppe4/ros2_ws/build/cartographer_slam/build/lib/cartographer_slam\n'}
+[12.316793] (cartographer_slam) StdoutLine: {'line': b'running install\n'}
+[12.317583] (cartographer_slam) StdoutLine: {'line': b'running install_lib\n'}
+[12.321354] (cartographer_slam) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages/cartographer_slam\n'}
+[12.322552] (cartographer_slam) StdoutLine: {'line': b'copying /home/Gruppe4/ros2_ws/build/cartographer_slam/build/lib/cartographer_slam/__init__.py -> /home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages/cartographer_slam\n'}
+[12.338541] (cartographer_slam) StdoutLine: {'line': b'byte-compiling /home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages/cartographer_slam/__init__.py to __init__.cpython-310.pyc\n'}
+[12.341332] (cartographer_slam) StdoutLine: {'line': b'running install_data\n'}
+[12.342393] (cartographer_slam) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/cartographer_slam/share/ament_index\n'}
+[12.343177] (cartographer_slam) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/cartographer_slam/share/ament_index/resource_index\n'}
+[12.344275] (cartographer_slam) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/cartographer_slam/share/ament_index/resource_index/packages\n'}
+[12.345249] (cartographer_slam) StdoutLine: {'line': b'copying resource/cartographer_slam -> /home/Gruppe4/ros2_ws/install/cartographer_slam/share/ament_index/resource_index/packages\n'}
+[12.346045] (cartographer_slam) StdoutLine: {'line': b'copying package.xml -> /home/Gruppe4/ros2_ws/install/cartographer_slam/share/cartographer_slam\n'}
+[12.346929] (cartographer_slam) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/cartographer_slam/share/cartographer_slam/launch\n'}
+[12.347803] (cartographer_slam) StdoutLine: {'line': b'copying launch/cartographer.launch.py -> /home/Gruppe4/ros2_ws/install/cartographer_slam/share/cartographer_slam/launch\n'}
+[12.348537] (cartographer_slam) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/cartographer_slam/share/cartographer_slam/config\n'}
+[12.349227] (cartographer_slam) StdoutLine: {'line': b'copying config/cartographer.lua -> /home/Gruppe4/ros2_ws/install/cartographer_slam/share/cartographer_slam/config\n'}
+[12.360699] (cartographer_slam) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.381527] (cartographer_slam) StdoutLine: {'line': b'Copying ../../build/cartographer_slam/cartographer_slam.egg-info to /home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages/cartographer_slam-0.0.0-py3.10.egg-info\n'}
+[12.388753] (-) TimerEvent: {}
+[12.392902] (cartographer_slam) StdoutLine: {'line': b'running install_scripts\n'}
+[12.488976] (-) TimerEvent: {}
+[12.508364] (nav2_course) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[12.589264] (-) TimerEvent: {}
+[12.591673] (cartographer_slam) StdoutLine: {'line': b"writing list of installed files to '/home/Gruppe4/ros2_ws/build/cartographer_slam/install.log'\n"}
+[12.689536] (-) TimerEvent: {}
+[12.791984] (-) TimerEvent: {}
+[12.896609] (-) TimerEvent: {}
+[13.000119] (-) TimerEvent: {}
+[13.102892] (-) TimerEvent: {}
+[13.205434] (-) TimerEvent: {}
+[13.306779] (-) TimerEvent: {}
+[13.408057] (-) TimerEvent: {}
+[13.509133] (-) TimerEvent: {}
+[13.611666] (-) TimerEvent: {}
+[13.698239] (nav2_course) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[13.711881] (-) TimerEvent: {}
+[13.760411] (nav2_course) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[13.812060] (-) TimerEvent: {}
+[13.913996] (-) TimerEvent: {}
+[14.016150] (-) TimerEvent: {}
+[14.117245] (-) TimerEvent: {}
+[14.219574] (-) TimerEvent: {}
+[14.322037] (-) TimerEvent: {}
+[14.334220] (nav2_course) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[14.366128] (nav2_course) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[14.370668] (nav2_course) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[14.376656] (nav2_course) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[14.397205] (nav2_course) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[14.422465] (-) TimerEvent: {}
+[14.525312] (-) TimerEvent: {}
+[14.600985] (cartographer_slam) CommandEnded: {'returncode': 0}
+[14.626638] (-) TimerEvent: {}
+[14.641453] (cartographer_slam) JobEnded: {'identifier': 'cartographer_slam', 'rc': 0}
+[14.656868] (assignment_2_pkg) CommandEnded: {'returncode': 0}
+[14.695257] (assignment_2_pkg) JobEnded: {'identifier': 'assignment_2_pkg', 'rc': 0}
+[14.702159] (path_planner_server) JobStarted: {'identifier': 'path_planner_server'}
+[14.726850] (-) TimerEvent: {}
+[14.829393] (-) TimerEvent: {}
+[14.932165] (-) TimerEvent: {}
+[14.996313] (nav2_course) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[15.032464] (-) TimerEvent: {}
+[15.042580] (nav2_course) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[15.044527] (nav2_course) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[15.047220] (nav2_course) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[15.102159] (nav2_course) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[15.132686] (-) TimerEvent: {}
+[15.235177] (-) TimerEvent: {}
+[15.339054] (-) TimerEvent: {}
+[15.441328] (-) TimerEvent: {}
+[15.543568] (-) TimerEvent: {}
+[15.650021] (-) TimerEvent: {}
+[15.752518] (-) TimerEvent: {}
+[15.854497] (-) TimerEvent: {}
+[15.956768] (-) TimerEvent: {}
+[16.058654] (-) TimerEvent: {}
+[16.160488] (-) TimerEvent: {}
+[16.262530] (-) TimerEvent: {}
+[16.364861] (-) TimerEvent: {}
+[16.467137] (-) TimerEvent: {}
+[16.569610] (-) TimerEvent: {}
+[16.648823] (nav2_course) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[16.669843] (-) TimerEvent: {}
+[16.770924] (-) TimerEvent: {}
+[16.872140] (-) TimerEvent: {}
+[16.973370] (-) TimerEvent: {}
+[17.074657] (-) TimerEvent: {}
+[17.176091] (-) TimerEvent: {}
+[17.277245] (-) TimerEvent: {}
+[17.383565] (-) TimerEvent: {}
+[17.485842] (-) TimerEvent: {}
+[17.513435] (nav2_project) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/nav2_project', 'build', '--build-base', '/home/Gruppe4/ros2_ws/build/nav2_project/build', 'install', '--record', '/home/Gruppe4/ros2_ws/build/nav2_project/install.log', '--install-scripts', '$base/lib/nav2_project', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/Gruppe4/ros2_ws/src/ros2_nav_files/nav2_project', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'Gruppe4', 'SSH_CLIENT': 'fe80::563b:1712:759a:af10%wlan0 56488 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/Gruppe4', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b4e114a1-7a32-4943-b8c1-8f0a0fb4ac3b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install:/home/Gruppe4/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'Gruppe4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-80a98d6374.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '4', 'AMENT_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install/path_planner_server:/home/Gruppe4/ros2_ws/install/nav2_project:/home/Gruppe4/ros2_ws/install/nav2_course:/home/Gruppe4/ros2_ws/install/map_server:/home/Gruppe4/ros2_ws/install/localization_server:/home/Gruppe4/ros2_ws/install/cartographer_slam:/home/Gruppe4/ros2_ws/install/assignment_3_pkg:/home/Gruppe4/ros2_ws/install/assignment_2_pkg:/home/Gruppe4/ros2_ws/install/asignment_1_pkg:/home/Gruppe4/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/Gruppe4/ros2_ws/build/nav2_project', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::563b:1712:759a:af10%wlan0 56488 fe80::e65f:1ff:fec3:cc3d%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/Gruppe4/ros2_ws/build/nav2_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/path_planner_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/map_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_3_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install/nav2_course:/home/Gruppe4/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[17.586014] (-) TimerEvent: {}
+[17.687659] (-) TimerEvent: {}
+[17.789622] (-) TimerEvent: {}
+[17.893271] (-) TimerEvent: {}
+[17.998849] (-) TimerEvent: {}
+[18.101154] (-) TimerEvent: {}
+[18.203220] (-) TimerEvent: {}
+[18.269193] (nav2_course) StdoutLine: {'line': b'-- Found nav2_common: 1.1.16 (/opt/ros/humble/share/nav2_common/cmake)\n'}
+[18.303536] (-) TimerEvent: {}
+[18.341976] (nav2_course) StdoutLine: {'line': b'-- Found navigation2: 1.1.16 (/opt/ros/humble/share/navigation2/cmake)\n'}
+[18.343002] (nav2_course) StdoutLine: {'line': b'-- Setting build type to Release as none was specified.\n'}
+[18.387501] (nav2_course) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[18.403809] (-) TimerEvent: {}
+[18.504853] (-) TimerEvent: {}
+[18.607544] (-) TimerEvent: {}
+[18.709728] (-) TimerEvent: {}
+[18.811620] (-) TimerEvent: {}
+[18.913729] (-) TimerEvent: {}
+[19.015935] (-) TimerEvent: {}
+[19.118260] (-) TimerEvent: {}
+[19.220403] (-) TimerEvent: {}
+[19.322715] (-) TimerEvent: {}
+[19.425184] (-) TimerEvent: {}
+[19.527257] (-) TimerEvent: {}
+[19.629748] (-) TimerEvent: {}
+[19.731717] (-) TimerEvent: {}
+[19.832685] (-) TimerEvent: {}
+[19.933527] (-) TimerEvent: {}
+[19.936885] (nav2_project) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[19.937798] (nav2_project) StderrLine: {'line': b'  warnings.warn(\n'}
+[19.989311] (nav2_project) StdoutLine: {'line': b'running egg_info\n'}
+[19.992495] (nav2_project) StdoutLine: {'line': b'creating ../../../build/nav2_project/nav2_project.egg-info\n'}
+[19.993827] (nav2_project) StdoutLine: {'line': b'writing ../../../build/nav2_project/nav2_project.egg-info/PKG-INFO\n'}
+[19.995755] (nav2_project) StdoutLine: {'line': b'writing dependency_links to ../../../build/nav2_project/nav2_project.egg-info/dependency_links.txt\n'}
+[19.997645] (nav2_project) StdoutLine: {'line': b'writing entry points to ../../../build/nav2_project/nav2_project.egg-info/entry_points.txt\n'}
+[19.998206] (nav2_project) StdoutLine: {'line': b'writing requirements to ../../../build/nav2_project/nav2_project.egg-info/requires.txt\n'}
+[19.998694] (nav2_project) StdoutLine: {'line': b'writing top-level names to ../../../build/nav2_project/nav2_project.egg-info/top_level.txt\n'}
+[20.000140] (nav2_project) StdoutLine: {'line': b"writing manifest file '../../../build/nav2_project/nav2_project.egg-info/SOURCES.txt'\n"}
+[20.009649] (nav2_project) StdoutLine: {'line': b"reading manifest file '../../../build/nav2_project/nav2_project.egg-info/SOURCES.txt'\n"}
+[20.014520] (nav2_project) StdoutLine: {'line': b"writing manifest file '../../../build/nav2_project/nav2_project.egg-info/SOURCES.txt'\n"}
+[20.015762] (nav2_project) StdoutLine: {'line': b'running build\n'}
+[20.016523] (nav2_project) StdoutLine: {'line': b'running build_py\n'}
+[20.017713] (nav2_project) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/build/nav2_project/build\n'}
+[20.018330] (nav2_project) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/build/nav2_project/build/lib\n'}
+[20.018854] (nav2_project) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/build/nav2_project/build/lib/nav2_project\n'}
+[20.019394] (nav2_project) StdoutLine: {'line': b'copying nav2_project/spot_recorder.py -> /home/Gruppe4/ros2_ws/build/nav2_project/build/lib/nav2_project\n'}
+[20.020302] (nav2_project) StdoutLine: {'line': b'copying nav2_project/__init__.py -> /home/Gruppe4/ros2_ws/build/nav2_project/build/lib/nav2_project\n'}
+[20.020938] (nav2_project) StdoutLine: {'line': b'copying nav2_project/go_to_pose.py -> /home/Gruppe4/ros2_ws/build/nav2_project/build/lib/nav2_project\n'}
+[20.021757] (nav2_project) StdoutLine: {'line': b'running install\n'}
+[20.023597] (nav2_project) StdoutLine: {'line': b'running install_lib\n'}
+[20.028066] (nav2_project) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages/nav2_project\n'}
+[20.029073] (nav2_project) StdoutLine: {'line': b'copying /home/Gruppe4/ros2_ws/build/nav2_project/build/lib/nav2_project/spot_recorder.py -> /home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages/nav2_project\n'}
+[20.031671] (nav2_project) StdoutLine: {'line': b'copying /home/Gruppe4/ros2_ws/build/nav2_project/build/lib/nav2_project/__init__.py -> /home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages/nav2_project\n'}
+[20.033966] (-) TimerEvent: {}
+[20.036161] (nav2_project) StdoutLine: {'line': b'copying /home/Gruppe4/ros2_ws/build/nav2_project/build/lib/nav2_project/go_to_pose.py -> /home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages/nav2_project\n'}
+[20.036896] (nav2_project) StdoutLine: {'line': b'byte-compiling /home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages/nav2_project/spot_recorder.py to spot_recorder.cpython-310.pyc\n'}
+[20.039677] (nav2_project) StdoutLine: {'line': b'byte-compiling /home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages/nav2_project/__init__.py to __init__.cpython-310.pyc\n'}
+[20.041911] (nav2_project) StdoutLine: {'line': b'byte-compiling /home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages/nav2_project/go_to_pose.py to go_to_pose.cpython-310.pyc\n'}
+[20.045009] (nav2_project) StdoutLine: {'line': b'running install_data\n'}
+[20.047924] (nav2_project) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/nav2_project/share/ament_index\n'}
+[20.048967] (nav2_project) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/nav2_project/share/ament_index/resource_index\n'}
+[20.049556] (nav2_project) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/nav2_project/share/ament_index/resource_index/packages\n'}
+[20.053230] (nav2_project) StdoutLine: {'line': b'copying resource/nav2_project -> /home/Gruppe4/ros2_ws/install/nav2_project/share/ament_index/resource_index/packages\n'}
+[20.055868] (nav2_project) StdoutLine: {'line': b'copying package.xml -> /home/Gruppe4/ros2_ws/install/nav2_project/share/nav2_project\n'}
+[20.058015] (nav2_project) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/nav2_project/share/nav2_project/launch\n'}
+[20.058759] (nav2_project) StdoutLine: {'line': b'copying launch/project_navigation_with_tools_launch.py -> /home/Gruppe4/ros2_ws/install/nav2_project/share/nav2_project/launch\n'}
+[20.063214] (nav2_project) StdoutLine: {'line': b'copying launch/cartographer.launch.py -> /home/Gruppe4/ros2_ws/install/nav2_project/share/nav2_project/launch\n'}
+[20.064790] (nav2_project) StdoutLine: {'line': b'copying launch/nav2_project.launch.py -> /home/Gruppe4/ros2_ws/install/nav2_project/share/nav2_project/launch\n'}
+[20.071746] (nav2_project) StdoutLine: {'line': b'copying launch/go_to_pose.launch.py -> /home/Gruppe4/ros2_ws/install/nav2_project/share/nav2_project/launch\n'}
+[20.076782] (nav2_project) StdoutLine: {'line': b'copying launch/project_map_server.launch.py -> /home/Gruppe4/ros2_ws/install/nav2_project/share/nav2_project/launch\n'}
+[20.077433] (nav2_project) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/nav2_project/share/nav2_project/config\n'}
+[20.077990] (nav2_project) StdoutLine: {'line': b'copying config/project_params.yaml -> /home/Gruppe4/ros2_ws/install/nav2_project/share/nav2_project/config\n'}
+[20.078610] (nav2_project) StdoutLine: {'line': b'copying config/turtlebot3_house.yaml -> /home/Gruppe4/ros2_ws/install/nav2_project/share/nav2_project/config\n'}
+[20.079596] (nav2_project) StdoutLine: {'line': b'copying config/spot-list.yaml -> /home/Gruppe4/ros2_ws/install/nav2_project/share/nav2_project/config\n'}
+[20.080396] (nav2_project) StdoutLine: {'line': b'copying config/nav2_project.yaml -> /home/Gruppe4/ros2_ws/install/nav2_project/share/nav2_project/config\n'}
+[20.088621] (nav2_project) StdoutLine: {'line': b'copying config/turtlebot3_house.pgm -> /home/Gruppe4/ros2_ws/install/nav2_project/share/nav2_project/config\n'}
+[20.090137] (nav2_project) StdoutLine: {'line': b'copying config/nav2_default_view.rviz -> /home/Gruppe4/ros2_ws/install/nav2_project/share/nav2_project/config\n'}
+[20.091516] (nav2_project) StdoutLine: {'line': b'copying config/navigate_w_replanning_and_recovery.xml -> /home/Gruppe4/ros2_ws/install/nav2_project/share/nav2_project/config\n'}
+[20.093817] (nav2_project) StdoutLine: {'line': b'copying config/cartographer.lua -> /home/Gruppe4/ros2_ws/install/nav2_project/share/nav2_project/config\n'}
+[20.097203] (nav2_project) StdoutLine: {'line': b'running install_egg_info\n'}
+[20.098959] (nav2_project) StdoutLine: {'line': b'Copying ../../../build/nav2_project/nav2_project.egg-info to /home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages/nav2_project-0.0.0-py3.10.egg-info\n'}
+[20.100605] (nav2_project) StdoutLine: {'line': b'running install_scripts\n'}
+[20.102669] (nav2_course) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[20.134758] (-) TimerEvent: {}
+[20.212882] (nav2_course) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[20.244034] (nav2_course) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[20.245562] (-) TimerEvent: {}
+[20.254554] (nav2_course) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[20.268161] (nav2_project) StdoutLine: {'line': b'Installing go_to_pose script to /home/Gruppe4/ros2_ws/install/nav2_project/lib/nav2_project\n'}
+[20.269481] (nav2_project) StdoutLine: {'line': b'Installing spot_recorder script to /home/Gruppe4/ros2_ws/install/nav2_project/lib/nav2_project\n'}
+[20.272166] (nav2_project) StdoutLine: {'line': b"writing list of installed files to '/home/Gruppe4/ros2_ws/build/nav2_project/install.log'\n"}
+[20.346039] (-) TimerEvent: {}
+[20.357869] (nav2_course) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[20.378559] (path_planner_server) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/path_planner_server', 'build', '--build-base', '/home/Gruppe4/ros2_ws/build/path_planner_server/build', 'install', '--record', '/home/Gruppe4/ros2_ws/build/path_planner_server/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/Gruppe4/ros2_ws/src/path_planner_server', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'Gruppe4', 'SSH_CLIENT': 'fe80::563b:1712:759a:af10%wlan0 56488 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/Gruppe4', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b4e114a1-7a32-4943-b8c1-8f0a0fb4ac3b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install:/home/Gruppe4/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'Gruppe4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-80a98d6374.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '4', 'AMENT_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install/path_planner_server:/home/Gruppe4/ros2_ws/install/nav2_project:/home/Gruppe4/ros2_ws/install/nav2_course:/home/Gruppe4/ros2_ws/install/map_server:/home/Gruppe4/ros2_ws/install/localization_server:/home/Gruppe4/ros2_ws/install/cartographer_slam:/home/Gruppe4/ros2_ws/install/assignment_3_pkg:/home/Gruppe4/ros2_ws/install/assignment_2_pkg:/home/Gruppe4/ros2_ws/install/asignment_1_pkg:/home/Gruppe4/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/Gruppe4/ros2_ws/build/path_planner_server', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::563b:1712:759a:af10%wlan0 56488 fe80::e65f:1ff:fec3:cc3d%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/Gruppe4/ros2_ws/build/path_planner_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/path_planner_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/path_planner_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/map_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_3_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/Gruppe4/ros2_ws/install/nav2_course:/home/Gruppe4/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[20.398776] (nav2_course) StdoutLine: {'line': b'-- Configuring done\n'}
+[20.446403] (-) TimerEvent: {}
+[20.468818] (nav2_project) CommandEnded: {'returncode': 0}
+[20.484604] (nav2_course) StdoutLine: {'line': b'-- Generating done\n'}
+[20.497758] (nav2_course) StdoutLine: {'line': b'-- Build files have been written to: /home/Gruppe4/ros2_ws/build/nav2_course\n'}
+[20.527600] (nav2_project) JobEnded: {'identifier': 'nav2_project', 'rc': 0}
+[20.543705] (nav2_course) CommandEnded: {'returncode': 0}
+[20.545546] (nav2_course) JobProgress: {'identifier': 'nav2_course', 'progress': 'build'}
+[20.545786] (nav2_course) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/Gruppe4/ros2_ws/build/nav2_course', '--', '-j4', '-l4'], 'cwd': '/home/Gruppe4/ros2_ws/build/nav2_course', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'Gruppe4'), ('SSH_CLIENT', 'fe80::563b:1712:759a:af10%wlan0 56488 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/Gruppe4'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b4e114a1-7a32-4943-b8c1-8f0a0fb4ac3b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/Gruppe4/ros2_ws/install:/home/Gruppe4/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'Gruppe4'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-80a98d6374.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '4'), ('AMENT_PREFIX_PATH', '/home/Gruppe4/ros2_ws/install/path_planner_server:/home/Gruppe4/ros2_ws/install/nav2_project:/home/Gruppe4/ros2_ws/install/nav2_course:/home/Gruppe4/ros2_ws/install/map_server:/home/Gruppe4/ros2_ws/install/localization_server:/home/Gruppe4/ros2_ws/install/cartographer_slam:/home/Gruppe4/ros2_ws/install/assignment_3_pkg:/home/Gruppe4/ros2_ws/install/assignment_2_pkg:/home/Gruppe4/ros2_ws/install/asignment_1_pkg:/home/Gruppe4/turtlebot3_ws/install/ld08_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/Gruppe4/ros2_ws/build/nav2_course'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', 'fe80::563b:1712:759a:af10%wlan0 56488 fe80::e65f:1ff:fec3:cc3d%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/Gruppe4/ros2_ws/install/path_planner_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/map_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_3_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/Gruppe4/ros2_ws/install/nav2_course:/home/Gruppe4/turtlebot3_ws/install/ld08_driver:/home/Gruppe4/ros2_ws/install/path_planner_server:/home/Gruppe4/ros2_ws/install/nav2_project:/home/Gruppe4/ros2_ws/install/map_server:/home/Gruppe4/ros2_ws/install/localization_server:/home/Gruppe4/ros2_ws/install/cartographer_slam:/home/Gruppe4/ros2_ws/install/assignment_3_pkg:/home/Gruppe4/ros2_ws/install/assignment_2_pkg:/home/Gruppe4/ros2_ws/install/asignment_1_pkg:/opt/ros/humble')]), 'shell': False}
+[20.557045] (-) TimerEvent: {}
+[20.657932] (-) TimerEvent: {}
+[20.760010] (-) TimerEvent: {}
+[20.811671] (nav2_course) CommandEnded: {'returncode': 0}
+[20.860316] (-) TimerEvent: {}
+[20.962921] (-) TimerEvent: {}
+[20.986474] (nav2_course) JobProgress: {'identifier': 'nav2_course', 'progress': 'install'}
+[21.044680] (nav2_course) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/Gruppe4/ros2_ws/build/nav2_course'], 'cwd': '/home/Gruppe4/ros2_ws/build/nav2_course', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'Gruppe4'), ('SSH_CLIENT', 'fe80::563b:1712:759a:af10%wlan0 56488 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/Gruppe4'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b4e114a1-7a32-4943-b8c1-8f0a0fb4ac3b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/Gruppe4/ros2_ws/install:/home/Gruppe4/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'Gruppe4'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/Gruppe4/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-80a98d6374.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '4'), ('AMENT_PREFIX_PATH', '/home/Gruppe4/ros2_ws/install/path_planner_server:/home/Gruppe4/ros2_ws/install/nav2_project:/home/Gruppe4/ros2_ws/install/nav2_course:/home/Gruppe4/ros2_ws/install/map_server:/home/Gruppe4/ros2_ws/install/localization_server:/home/Gruppe4/ros2_ws/install/cartographer_slam:/home/Gruppe4/ros2_ws/install/assignment_3_pkg:/home/Gruppe4/ros2_ws/install/assignment_2_pkg:/home/Gruppe4/ros2_ws/install/asignment_1_pkg:/home/Gruppe4/turtlebot3_ws/install/ld08_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/Gruppe4/ros2_ws/build/nav2_course'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', 'fe80::563b:1712:759a:af10%wlan0 56488 fe80::e65f:1ff:fec3:cc3d%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/Gruppe4/ros2_ws/install/path_planner_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/map_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_3_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages:/home/Gruppe4/ros2_ws/install/asignment_1_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/Gruppe4/ros2_ws/install/nav2_course:/home/Gruppe4/turtlebot3_ws/install/ld08_driver:/home/Gruppe4/ros2_ws/install/path_planner_server:/home/Gruppe4/ros2_ws/install/nav2_project:/home/Gruppe4/ros2_ws/install/map_server:/home/Gruppe4/ros2_ws/install/localization_server:/home/Gruppe4/ros2_ws/install/cartographer_slam:/home/Gruppe4/ros2_ws/install/assignment_3_pkg:/home/Gruppe4/ros2_ws/install/assignment_2_pkg:/home/Gruppe4/ros2_ws/install/asignment_1_pkg:/opt/ros/humble')]), 'shell': False}
+[21.063205] (-) TimerEvent: {}
+[21.103348] (nav2_course) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[21.104688] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/launch\n'}
+[21.108074] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/launch/map_server_launch.py\n'}
+[21.112655] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/launch/localization_launch.py\n'}
+[21.117613] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/launch/rviz.launch.py\n'}
+[21.119531] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/launch/nav2_demo.launch.py\n'}
+[21.125445] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/launch/nav2_complete.launch.py\n'}
+[21.131438] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/launch/tb3_world_navigation_with_tools_launch.py\n'}
+[21.136283] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/launch/navigation2_launch.py\n'}
+[21.139387] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/launch/map_saver.launch.py\n'}
+[21.140132] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/config\n'}
+[21.140820] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/config/turtlebot3_world.pgm\n'}
+[21.144037] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/config/nav2.yaml\n'}
+[21.144677] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/config/nav2_default_view.rviz\n'}
+[21.147068] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/config/navigate_w_replanning_and_recovery_old.xml\n'}
+[21.149502] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/config/nav2_params.yaml\n'}
+[21.150107] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/config/navigate_w_replanning_and_recovery.xml\n'}
+[21.152405] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/config/localization_params.yaml\n'}
+[21.154293] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/config/nav2_house_sim_params.yaml\n'}
+[21.155640] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/config/turtlebot3_world.yaml\n'}
+[21.157650] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/config/default.rviz\n'}
+[21.160345] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/worlds\n'}
+[21.161053] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/worlds/house_waffle.model\n'}
+[21.164721] (-) TimerEvent: {}
+[21.165428] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/worlds/world_only.model\n'}
+[21.166329] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/worlds/waffle.model\n'}
+[21.166971] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/maps\n'}
+[21.167920] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/maps/turtlebot_area.yaml\n'}
+[21.168591] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/maps/turtlebot_area.pgm\n'}
+[21.170001] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/ament_index/resource_index/package_run_dependencies/nav2_course\n'}
+[21.175850] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/ament_index/resource_index/parent_prefix_path/nav2_course\n'}
+[21.180220] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/environment/ament_prefix_path.sh\n'}
+[21.184866] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/environment/ament_prefix_path.dsv\n'}
+[21.193865] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/environment/path.sh\n'}
+[21.194514] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/environment/path.dsv\n'}
+[21.205190] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/local_setup.bash\n'}
+[21.206967] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/local_setup.sh\n'}
+[21.210321] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/local_setup.zsh\n'}
+[21.211938] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/local_setup.dsv\n'}
+[21.212733] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/package.dsv\n'}
+[21.213547] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/ament_index/resource_index/packages/nav2_course\n'}
+[21.214252] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/cmake/nav2_courseConfig.cmake\n'}
+[21.214993] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/cmake/nav2_courseConfig-version.cmake\n'}
+[21.215679] (nav2_course) StdoutLine: {'line': b'-- Installing: /home/Gruppe4/ros2_ws/install/nav2_course/share/nav2_course/package.xml\n'}
+[21.216690] (nav2_course) CommandEnded: {'returncode': 0}
+[21.264945] (-) TimerEvent: {}
+[21.365802] (-) TimerEvent: {}
+[21.431534] (nav2_course) JobEnded: {'identifier': 'nav2_course', 'rc': 0}
+[21.466043] (-) TimerEvent: {}
+[21.566904] (-) TimerEvent: {}
+[21.668293] (-) TimerEvent: {}
+[21.769176] (-) TimerEvent: {}
+[21.870093] (-) TimerEvent: {}
+[21.971258] (-) TimerEvent: {}
+[22.072443] (-) TimerEvent: {}
+[22.173655] (-) TimerEvent: {}
+[22.274786] (-) TimerEvent: {}
+[22.294513] (path_planner_server) StdoutLine: {'line': b'running egg_info\n'}
+[22.298243] (path_planner_server) StdoutLine: {'line': b'creating ../../build/path_planner_server/path_planner_server.egg-info\n'}
+[22.300516] (path_planner_server) StdoutLine: {'line': b'writing ../../build/path_planner_server/path_planner_server.egg-info/PKG-INFO\n'}
+[22.302390] (path_planner_server) StdoutLine: {'line': b'writing dependency_links to ../../build/path_planner_server/path_planner_server.egg-info/dependency_links.txt\n'}
+[22.304366] (path_planner_server) StdoutLine: {'line': b'writing entry points to ../../build/path_planner_server/path_planner_server.egg-info/entry_points.txt\n'}
+[22.306141] (path_planner_server) StdoutLine: {'line': b'writing requirements to ../../build/path_planner_server/path_planner_server.egg-info/requires.txt\n'}
+[22.307591] (path_planner_server) StdoutLine: {'line': b'writing top-level names to ../../build/path_planner_server/path_planner_server.egg-info/top_level.txt\n'}
+[22.309753] (path_planner_server) StdoutLine: {'line': b"writing manifest file '../../build/path_planner_server/path_planner_server.egg-info/SOURCES.txt'\n"}
+[22.319051] (path_planner_server) StdoutLine: {'line': b"reading manifest file '../../build/path_planner_server/path_planner_server.egg-info/SOURCES.txt'\n"}
+[22.324395] (path_planner_server) StdoutLine: {'line': b"writing manifest file '../../build/path_planner_server/path_planner_server.egg-info/SOURCES.txt'\n"}
+[22.326230] (path_planner_server) StdoutLine: {'line': b'running build\n'}
+[22.327059] (path_planner_server) StdoutLine: {'line': b'running build_py\n'}
+[22.328595] (path_planner_server) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/build/path_planner_server/build\n'}
+[22.329517] (path_planner_server) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/build/path_planner_server/build/lib\n'}
+[22.330584] (path_planner_server) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/build/path_planner_server/build/lib/path_planner_server\n'}
+[22.331202] (path_planner_server) StdoutLine: {'line': b'copying path_planner_server/__init__.py -> /home/Gruppe4/ros2_ws/build/path_planner_server/build/lib/path_planner_server\n'}
+[22.332635] (path_planner_server) StdoutLine: {'line': b'running install\n'}
+[22.334312] (path_planner_server) StdoutLine: {'line': b'running install_lib\n'}
+[22.338553] (path_planner_server) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/path_planner_server/lib/python3.10/site-packages/path_planner_server\n'}
+[22.339707] (path_planner_server) StdoutLine: {'line': b'copying /home/Gruppe4/ros2_ws/build/path_planner_server/build/lib/path_planner_server/__init__.py -> /home/Gruppe4/ros2_ws/install/path_planner_server/lib/python3.10/site-packages/path_planner_server\n'}
+[22.342541] (path_planner_server) StdoutLine: {'line': b'byte-compiling /home/Gruppe4/ros2_ws/install/path_planner_server/lib/python3.10/site-packages/path_planner_server/__init__.py to __init__.cpython-310.pyc\n'}
+[22.344124] (path_planner_server) StdoutLine: {'line': b'running install_data\n'}
+[22.345614] (path_planner_server) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/path_planner_server/share/ament_index\n'}
+[22.347071] (path_planner_server) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/path_planner_server/share/ament_index/resource_index\n'}
+[22.348912] (path_planner_server) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/path_planner_server/share/ament_index/resource_index/packages\n'}
+[22.350028] (path_planner_server) StdoutLine: {'line': b'copying resource/path_planner_server -> /home/Gruppe4/ros2_ws/install/path_planner_server/share/ament_index/resource_index/packages\n'}
+[22.351485] (path_planner_server) StdoutLine: {'line': b'copying package.xml -> /home/Gruppe4/ros2_ws/install/path_planner_server/share/path_planner_server\n'}
+[22.352485] (path_planner_server) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/path_planner_server/share/path_planner_server/launch\n'}
+[22.353485] (path_planner_server) StdoutLine: {'line': b'copying launch/pathplanner.launch.py -> /home/Gruppe4/ros2_ws/install/path_planner_server/share/path_planner_server/launch\n'}
+[22.354223] (path_planner_server) StdoutLine: {'line': b'creating /home/Gruppe4/ros2_ws/install/path_planner_server/share/path_planner_server/config\n'}
+[22.355176] (path_planner_server) StdoutLine: {'line': b'copying config/recovery.yaml -> /home/Gruppe4/ros2_ws/install/path_planner_server/share/path_planner_server/config\n'}
+[22.356200] (path_planner_server) StdoutLine: {'line': b'copying config/planner_server.yaml -> /home/Gruppe4/ros2_ws/install/path_planner_server/share/path_planner_server/config\n'}
+[22.357157] (path_planner_server) StdoutLine: {'line': b'copying config/controller.yaml -> /home/Gruppe4/ros2_ws/install/path_planner_server/share/path_planner_server/config\n'}
+[22.358086] (path_planner_server) StdoutLine: {'line': b'copying config/turtlebot_area.yaml -> /home/Gruppe4/ros2_ws/install/path_planner_server/share/path_planner_server/config\n'}
+[22.358942] (path_planner_server) StdoutLine: {'line': b'copying config/behavior.xml -> /home/Gruppe4/ros2_ws/install/path_planner_server/share/path_planner_server/config\n'}
+[22.360239] (path_planner_server) StdoutLine: {'line': b'copying config/turtlebot_area copy.yaml -> /home/Gruppe4/ros2_ws/install/path_planner_server/share/path_planner_server/config\n'}
+[22.360912] (path_planner_server) StdoutLine: {'line': b'copying config/amcl_config.yaml -> /home/Gruppe4/ros2_ws/install/path_planner_server/share/path_planner_server/config\n'}
+[22.361554] (path_planner_server) StdoutLine: {'line': b'copying config/bt_navigator.yaml -> /home/Gruppe4/ros2_ws/install/path_planner_server/share/path_planner_server/config\n'}
+[22.362134] (path_planner_server) StdoutLine: {'line': b'copying config/turtlebot_area.pgm -> /home/Gruppe4/ros2_ws/install/path_planner_server/share/path_planner_server/config\n'}
+[22.362739] (path_planner_server) StdoutLine: {'line': b'running install_egg_info\n'}
+[22.371805] (path_planner_server) StdoutLine: {'line': b'Copying ../../build/path_planner_server/path_planner_server.egg-info to /home/Gruppe4/ros2_ws/install/path_planner_server/lib/python3.10/site-packages/path_planner_server-0.0.0-py3.10.egg-info\n'}
+[22.375541] (-) TimerEvent: {}
+[22.379946] (path_planner_server) StdoutLine: {'line': b'running install_scripts\n'}
+[22.475736] (-) TimerEvent: {}
+[22.478664] (path_planner_server) StdoutLine: {'line': b"writing list of installed files to '/home/Gruppe4/ros2_ws/build/path_planner_server/install.log'\n"}
+[22.576096] (-) TimerEvent: {}
+[22.615573] (path_planner_server) CommandEnded: {'returncode': 0}
+[22.646997] (path_planner_server) JobEnded: {'identifier': 'path_planner_server', 'rc': 0}
+[22.650908] (-) EventReactorShutdown: {}

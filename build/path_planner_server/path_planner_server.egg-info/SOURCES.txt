@@ -14,6 +14,8 @@ config/bt_navigator.yaml
 config/controller.yaml
 config/planner_server.yaml
 config/recovery.yaml
+config/turtlebot_area copy.yaml
+config/turtlebot_area.pgm
 config/turtlebot_area.yaml
 launch/pathplanner.launch.py
 path_planner_server/__init__.py

@@ -1,0 +1,37 @@
+[9.157s] Invoking command in '/home/Gruppe4/ros2_ws/src/cartographer_slam': PYTHONPATH=/home/Gruppe4/ros2_ws/build/cartographer_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cartographer_slam build --build-base /home/Gruppe4/ros2_ws/build/cartographer_slam/build install --record /home/Gruppe4/ros2_ws/build/cartographer_slam/install.log --single-version-externally-managed install_data
+[12.113s] running egg_info
+[12.119s] creating ../../build/cartographer_slam/cartographer_slam.egg-info
+[12.134s] writing ../../build/cartographer_slam/cartographer_slam.egg-info/PKG-INFO
+[12.137s] writing dependency_links to ../../build/cartographer_slam/cartographer_slam.egg-info/dependency_links.txt
+[12.140s] writing entry points to ../../build/cartographer_slam/cartographer_slam.egg-info/entry_points.txt
+[12.142s] writing requirements to ../../build/cartographer_slam/cartographer_slam.egg-info/requires.txt
+[12.145s] writing top-level names to ../../build/cartographer_slam/cartographer_slam.egg-info/top_level.txt
+[12.149s] writing manifest file '../../build/cartographer_slam/cartographer_slam.egg-info/SOURCES.txt'
+[12.161s] reading manifest file '../../build/cartographer_slam/cartographer_slam.egg-info/SOURCES.txt'
+[12.196s] writing manifest file '../../build/cartographer_slam/cartographer_slam.egg-info/SOURCES.txt'
+[12.197s] running build
+[12.198s] running build_py
+[12.198s] creating /home/Gruppe4/ros2_ws/build/cartographer_slam/build
+[12.199s] creating /home/Gruppe4/ros2_ws/build/cartographer_slam/build/lib
+[12.200s] creating /home/Gruppe4/ros2_ws/build/cartographer_slam/build/lib/cartographer_slam
+[12.201s] copying cartographer_slam/__init__.py -> /home/Gruppe4/ros2_ws/build/cartographer_slam/build/lib/cartographer_slam
+[12.202s] running install
+[12.202s] running install_lib
+[12.206s] creating /home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages/cartographer_slam
+[12.207s] copying /home/Gruppe4/ros2_ws/build/cartographer_slam/build/lib/cartographer_slam/__init__.py -> /home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages/cartographer_slam
+[12.223s] byte-compiling /home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages/cartographer_slam/__init__.py to __init__.cpython-310.pyc
+[12.226s] running install_data
+[12.227s] creating /home/Gruppe4/ros2_ws/install/cartographer_slam/share/ament_index
+[12.228s] creating /home/Gruppe4/ros2_ws/install/cartographer_slam/share/ament_index/resource_index
+[12.229s] creating /home/Gruppe4/ros2_ws/install/cartographer_slam/share/ament_index/resource_index/packages
+[12.230s] copying resource/cartographer_slam -> /home/Gruppe4/ros2_ws/install/cartographer_slam/share/ament_index/resource_index/packages
+[12.231s] copying package.xml -> /home/Gruppe4/ros2_ws/install/cartographer_slam/share/cartographer_slam
+[12.232s] creating /home/Gruppe4/ros2_ws/install/cartographer_slam/share/cartographer_slam/launch
+[12.233s] copying launch/cartographer.launch.py -> /home/Gruppe4/ros2_ws/install/cartographer_slam/share/cartographer_slam/launch
+[12.233s] creating /home/Gruppe4/ros2_ws/install/cartographer_slam/share/cartographer_slam/config
+[12.234s] copying config/cartographer.lua -> /home/Gruppe4/ros2_ws/install/cartographer_slam/share/cartographer_slam/config
+[12.246s] running install_egg_info
+[12.266s] Copying ../../build/cartographer_slam/cartographer_slam.egg-info to /home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages/cartographer_slam-0.0.0-py3.10.egg-info
+[12.278s] running install_scripts
+[12.477s] writing list of installed files to '/home/Gruppe4/ros2_ws/build/cartographer_slam/install.log'
+[14.487s] Invoked command in '/home/Gruppe4/ros2_ws/src/cartographer_slam' returned '0': PYTHONPATH=/home/Gruppe4/ros2_ws/build/cartographer_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cartographer_slam build --build-base /home/Gruppe4/ros2_ws/build/cartographer_slam/build install --record /home/Gruppe4/ros2_ws/build/cartographer_slam/install.log --single-version-externally-managed install_data

@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/assignment_2_pkg/assignment_2_pkg.egg-info
+writing ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/requires.txt
+writing top-level names to ../../build/assignment_2_pkg/assignment_2_pkg.egg-info/top_level.txt
+writing manifest file '../../build/assignment_2_pkg/assignment_2_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/assignment_2_pkg/assignment_2_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/assignment_2_pkg/assignment_2_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build
+creating /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build/lib
+creating /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build/lib/assignment_2_pkg
+copying assignment_2_pkg/__init__.py -> /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build/lib/assignment_2_pkg
+copying assignment_2_pkg/wall_follower.py -> /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build/lib/assignment_2_pkg
+running install
+running install_lib
+creating /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg
+copying /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build/lib/assignment_2_pkg/__init__.py -> /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg
+copying /home/Gruppe4/ros2_ws/build/assignment_2_pkg/build/lib/assignment_2_pkg/wall_follower.py -> /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg
+byte-compiling /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg/wall_follower.py to wall_follower.cpython-310.pyc
+running install_data
+creating /home/Gruppe4/ros2_ws/install/assignment_2_pkg/share/ament_index
+creating /home/Gruppe4/ros2_ws/install/assignment_2_pkg/share/ament_index/resource_index
+creating /home/Gruppe4/ros2_ws/install/assignment_2_pkg/share/ament_index/resource_index/packages
+copying resource/assignment_2_pkg -> /home/Gruppe4/ros2_ws/install/assignment_2_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/Gruppe4/ros2_ws/install/assignment_2_pkg/share/assignment_2_pkg
+copying launch/assignment_2_launch_file.launch.py -> /home/Gruppe4/ros2_ws/install/assignment_2_pkg/share/assignment_2_pkg
+running install_egg_info
+Copying ../../build/assignment_2_pkg/assignment_2_pkg.egg-info to /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/python3.10/site-packages/assignment_2_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing wall_follower script to /home/Gruppe4/ros2_ws/install/assignment_2_pkg/lib/assignment_2_pkg
+writing list of installed files to '/home/Gruppe4/ros2_ws/build/assignment_2_pkg/install.log'

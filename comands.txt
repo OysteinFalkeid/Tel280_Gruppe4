@@ -25,10 +25,6 @@ Starter pakken:
 
     ros2 launch cartographer_slam cartographer.launch.py
 
-    ros2 launch map_server nav2_map_server.launch.py
-
-    ros2 launch localization_server localization.launch.py
-
     ros2 launch path_planner_server pathplanner.launch.py
 
 Lagrer kartet:

@@ -1,3 +1,0 @@
-[console_scripts]
-laser_subscriber = asignment_1_pkg.laser_subscriber:main
-

@@ -1,0 +1,35 @@
+[7.090s] Invoking command in '/home/Gruppe4/ros2_ws/OLD_src/assignment_3_pkg': PYTHONPATH=/home/Gruppe4/ros2_ws/build/assignment_3_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/assignment_3_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/assignment_3_pkg build --build-base /home/Gruppe4/ros2_ws/build/assignment_3_pkg/build install --record /home/Gruppe4/ros2_ws/build/assignment_3_pkg/install.log --single-version-externally-managed install_data
+[10.706s] running egg_info
+[10.707s] creating ../../build/assignment_3_pkg/assignment_3_pkg.egg-info
+[10.708s] writing ../../build/assignment_3_pkg/assignment_3_pkg.egg-info/PKG-INFO
+[10.711s] writing dependency_links to ../../build/assignment_3_pkg/assignment_3_pkg.egg-info/dependency_links.txt
+[10.712s] writing entry points to ../../build/assignment_3_pkg/assignment_3_pkg.egg-info/entry_points.txt
+[10.715s] writing requirements to ../../build/assignment_3_pkg/assignment_3_pkg.egg-info/requires.txt
+[10.717s] writing top-level names to ../../build/assignment_3_pkg/assignment_3_pkg.egg-info/top_level.txt
+[10.724s] writing manifest file '../../build/assignment_3_pkg/assignment_3_pkg.egg-info/SOURCES.txt'
+[10.729s] reading manifest file '../../build/assignment_3_pkg/assignment_3_pkg.egg-info/SOURCES.txt'
+[10.734s] writing manifest file '../../build/assignment_3_pkg/assignment_3_pkg.egg-info/SOURCES.txt'
+[10.749s] running build
+[10.752s] running build_py
+[10.754s] creating /home/Gruppe4/ros2_ws/build/assignment_3_pkg/build
+[10.754s] creating /home/Gruppe4/ros2_ws/build/assignment_3_pkg/build/lib
+[10.755s] creating /home/Gruppe4/ros2_ws/build/assignment_3_pkg/build/lib/assignment_3_pkg
+[10.756s] copying assignment_3_pkg/__init__.py -> /home/Gruppe4/ros2_ws/build/assignment_3_pkg/build/lib/assignment_3_pkg
+[10.756s] running install
+[10.759s] running install_lib
+[10.766s] creating /home/Gruppe4/ros2_ws/install/assignment_3_pkg/lib/python3.10/site-packages/assignment_3_pkg
+[10.767s] copying /home/Gruppe4/ros2_ws/build/assignment_3_pkg/build/lib/assignment_3_pkg/__init__.py -> /home/Gruppe4/ros2_ws/install/assignment_3_pkg/lib/python3.10/site-packages/assignment_3_pkg
+[10.772s] byte-compiling /home/Gruppe4/ros2_ws/install/assignment_3_pkg/lib/python3.10/site-packages/assignment_3_pkg/__init__.py to __init__.cpython-310.pyc
+[10.773s] running install_data
+[10.774s] creating /home/Gruppe4/ros2_ws/install/assignment_3_pkg/share/ament_index
+[10.778s] creating /home/Gruppe4/ros2_ws/install/assignment_3_pkg/share/ament_index/resource_index
+[10.783s] creating /home/Gruppe4/ros2_ws/install/assignment_3_pkg/share/ament_index/resource_index/packages
+[10.786s] copying resource/assignment_3_pkg -> /home/Gruppe4/ros2_ws/install/assignment_3_pkg/share/ament_index/resource_index/packages
+[10.786s] copying package.xml -> /home/Gruppe4/ros2_ws/install/assignment_3_pkg/share/assignment_3_pkg
+[10.787s] creating /home/Gruppe4/ros2_ws/install/assignment_3_pkg/share/assignment_3_pkg/launch
+[10.789s] copying launch/assignment_3_pkg.launch.py -> /home/Gruppe4/ros2_ws/install/assignment_3_pkg/share/assignment_3_pkg/launch
+[10.791s] running install_egg_info
+[10.814s] Copying ../../build/assignment_3_pkg/assignment_3_pkg.egg-info to /home/Gruppe4/ros2_ws/install/assignment_3_pkg/lib/python3.10/site-packages/assignment_3_pkg-0.0.0-py3.10.egg-info
+[10.822s] running install_scripts
+[11.100s] writing list of installed files to '/home/Gruppe4/ros2_ws/build/assignment_3_pkg/install.log'
+[11.435s] Invoked command in '/home/Gruppe4/ros2_ws/OLD_src/assignment_3_pkg' returned '0': PYTHONPATH=/home/Gruppe4/ros2_ws/build/assignment_3_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/assignment_3_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/assignment_3_pkg build --build-base /home/Gruppe4/ros2_ws/build/assignment_3_pkg/build install --record /home/Gruppe4/ros2_ws/build/assignment_3_pkg/install.log --single-version-externally-managed install_data
