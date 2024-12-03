@@ -6,7 +6,9 @@
 /home/Gruppe4/ros2_ws/install/path_planner_server/share/path_planner_server/config/recovery.yaml
 /home/Gruppe4/ros2_ws/install/path_planner_server/share/path_planner_server/config/planner_server.yaml
 /home/Gruppe4/ros2_ws/install/path_planner_server/share/path_planner_server/config/controller.yaml
+/home/Gruppe4/ros2_ws/install/path_planner_server/share/path_planner_server/config/turtlebot_area.yaml
 /home/Gruppe4/ros2_ws/install/path_planner_server/share/path_planner_server/config/behavior.xml
+/home/Gruppe4/ros2_ws/install/path_planner_server/share/path_planner_server/config/amcl_config.yaml
 /home/Gruppe4/ros2_ws/install/path_planner_server/share/path_planner_server/config/bt_navigator.yaml
 /home/Gruppe4/ros2_ws/install/path_planner_server/lib/python3.10/site-packages/path_planner_server-0.0.0-py3.10.egg-info/PKG-INFO
 /home/Gruppe4/ros2_ws/install/path_planner_server/lib/python3.10/site-packages/path_planner_server-0.0.0-py3.10.egg-info/top_level.txt

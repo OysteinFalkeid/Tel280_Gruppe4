@@ -1,0 +1,20 @@
+[4.734s] Invoking command in '/home/Gruppe4/ros2_ws/src/path_planner_server': PYTHONPATH=/home/Gruppe4/ros2_ws/build/path_planner_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/path_planner_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/path_planner_server build --build-base /home/Gruppe4/ros2_ws/build/path_planner_server/build install --record /home/Gruppe4/ros2_ws/build/path_planner_server/install.log --single-version-externally-managed install_data
+[6.648s] running egg_info
+[6.651s] writing ../../build/path_planner_server/path_planner_server.egg-info/PKG-INFO
+[6.653s] writing dependency_links to ../../build/path_planner_server/path_planner_server.egg-info/dependency_links.txt
+[6.654s] writing entry points to ../../build/path_planner_server/path_planner_server.egg-info/entry_points.txt
+[6.656s] writing requirements to ../../build/path_planner_server/path_planner_server.egg-info/requires.txt
+[6.657s] writing top-level names to ../../build/path_planner_server/path_planner_server.egg-info/top_level.txt
+[6.670s] reading manifest file '../../build/path_planner_server/path_planner_server.egg-info/SOURCES.txt'
+[6.678s] writing manifest file '../../build/path_planner_server/path_planner_server.egg-info/SOURCES.txt'
+[6.679s] running build
+[6.680s] running build_py
+[6.681s] running install
+[6.682s] running install_lib
+[6.687s] running install_data
+[6.691s] running install_egg_info
+[6.699s] removing '/home/Gruppe4/ros2_ws/install/path_planner_server/lib/python3.10/site-packages/path_planner_server-0.0.0-py3.10.egg-info' (and everything under it)
+[6.703s] Copying ../../build/path_planner_server/path_planner_server.egg-info to /home/Gruppe4/ros2_ws/install/path_planner_server/lib/python3.10/site-packages/path_planner_server-0.0.0-py3.10.egg-info
+[6.712s] running install_scripts
+[6.841s] writing list of installed files to '/home/Gruppe4/ros2_ws/build/path_planner_server/install.log'
+[7.037s] Invoked command in '/home/Gruppe4/ros2_ws/src/path_planner_server' returned '0': PYTHONPATH=/home/Gruppe4/ros2_ws/build/path_planner_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/path_planner_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/path_planner_server build --build-base /home/Gruppe4/ros2_ws/build/path_planner_server/build install --record /home/Gruppe4/ros2_ws/build/path_planner_server/install.log --single-version-externally-managed install_data

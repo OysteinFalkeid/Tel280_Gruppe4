@@ -8,11 +8,13 @@ setup.py
 ../../build/path_planner_server/path_planner_server.egg-info/requires.txt
 ../../build/path_planner_server/path_planner_server.egg-info/top_level.txt
 ../../build/path_planner_server/path_planner_server.egg-info/zip-safe
+config/amcl_config.yaml
 config/behavior.xml
 config/bt_navigator.yaml
 config/controller.yaml
 config/planner_server.yaml
 config/recovery.yaml
+config/turtlebot_area.yaml
 launch/pathplanner.launch.py
 path_planner_server/__init__.py
 resource/path_planner_server

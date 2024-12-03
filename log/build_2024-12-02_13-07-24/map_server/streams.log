@@ -1,0 +1,20 @@
+[5.173s] Invoking command in '/home/Gruppe4/ros2_ws/src/map_server': PYTHONPATH=/home/Gruppe4/ros2_ws/build/map_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/map_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map_server build --build-base /home/Gruppe4/ros2_ws/build/map_server/build install --record /home/Gruppe4/ros2_ws/build/map_server/install.log --single-version-externally-managed install_data
+[7.122s] running egg_info
+[7.132s] writing ../../build/map_server/map_server.egg-info/PKG-INFO
+[7.145s] writing dependency_links to ../../build/map_server/map_server.egg-info/dependency_links.txt
+[7.146s] writing entry points to ../../build/map_server/map_server.egg-info/entry_points.txt
+[7.147s] writing requirements to ../../build/map_server/map_server.egg-info/requires.txt
+[7.148s] writing top-level names to ../../build/map_server/map_server.egg-info/top_level.txt
+[7.161s] reading manifest file '../../build/map_server/map_server.egg-info/SOURCES.txt'
+[7.177s] writing manifest file '../../build/map_server/map_server.egg-info/SOURCES.txt'
+[7.178s] running build
+[7.181s] running build_py
+[7.184s] running install
+[7.185s] running install_lib
+[7.196s] running install_data
+[7.198s] running install_egg_info
+[7.214s] removing '/home/Gruppe4/ros2_ws/install/map_server/lib/python3.10/site-packages/map_server-0.0.0-py3.10.egg-info' (and everything under it)
+[7.219s] Copying ../../build/map_server/map_server.egg-info to /home/Gruppe4/ros2_ws/install/map_server/lib/python3.10/site-packages/map_server-0.0.0-py3.10.egg-info
+[7.228s] running install_scripts
+[7.390s] writing list of installed files to '/home/Gruppe4/ros2_ws/build/map_server/install.log'
+[7.871s] Invoked command in '/home/Gruppe4/ros2_ws/src/map_server' returned '0': PYTHONPATH=/home/Gruppe4/ros2_ws/build/map_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/map_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map_server build --build-base /home/Gruppe4/ros2_ws/build/map_server/build install --record /home/Gruppe4/ros2_ws/build/map_server/install.log --single-version-externally-managed install_data

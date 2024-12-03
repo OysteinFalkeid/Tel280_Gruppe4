@@ -1,0 +1,24 @@
+[4.840s] Invoking command in '/home/Gruppe4/ros2_ws/src/ros2_nav_files/nav2_project': PYTHONPATH=/home/Gruppe4/ros2_ws/build/nav2_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/nav2_project build --build-base /home/Gruppe4/ros2_ws/build/nav2_project/build install --record /home/Gruppe4/ros2_ws/build/nav2_project/install.log --install-scripts $base/lib/nav2_project --single-version-externally-managed install_data
+[6.590s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.590s]   warnings.warn(
+[6.663s] running egg_info
+[6.671s] writing ../../../build/nav2_project/nav2_project.egg-info/PKG-INFO
+[6.675s] writing dependency_links to ../../../build/nav2_project/nav2_project.egg-info/dependency_links.txt
+[6.681s] writing entry points to ../../../build/nav2_project/nav2_project.egg-info/entry_points.txt
+[6.682s] writing requirements to ../../../build/nav2_project/nav2_project.egg-info/requires.txt
+[6.682s] writing top-level names to ../../../build/nav2_project/nav2_project.egg-info/top_level.txt
+[6.697s] reading manifest file '../../../build/nav2_project/nav2_project.egg-info/SOURCES.txt'
+[6.703s] writing manifest file '../../../build/nav2_project/nav2_project.egg-info/SOURCES.txt'
+[6.706s] running build
+[6.709s] running build_py
+[6.711s] running install
+[6.712s] running install_lib
+[6.736s] running install_data
+[6.742s] running install_egg_info
+[6.764s] removing '/home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages/nav2_project-0.0.0-py3.10.egg-info' (and everything under it)
+[6.775s] Copying ../../../build/nav2_project/nav2_project.egg-info to /home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages/nav2_project-0.0.0-py3.10.egg-info
+[6.785s] running install_scripts
+[6.911s] Installing go_to_pose script to /home/Gruppe4/ros2_ws/install/nav2_project/lib/nav2_project
+[6.916s] Installing spot_recorder script to /home/Gruppe4/ros2_ws/install/nav2_project/lib/nav2_project
+[6.920s] writing list of installed files to '/home/Gruppe4/ros2_ws/build/nav2_project/install.log'
+[7.161s] Invoked command in '/home/Gruppe4/ros2_ws/src/ros2_nav_files/nav2_project' returned '0': PYTHONPATH=/home/Gruppe4/ros2_ws/build/nav2_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/nav2_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/nav2_project build --build-base /home/Gruppe4/ros2_ws/build/nav2_project/build install --record /home/Gruppe4/ros2_ws/build/nav2_project/install.log --install-scripts $base/lib/nav2_project --single-version-externally-managed install_data

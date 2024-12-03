@@ -9,6 +9,7 @@ setup.py
 ../../build/localization_server/localization_server.egg-info/top_level.txt
 ../../build/localization_server/localization_server.egg-info/zip-safe
 config/amcl_config.yaml
+config/turtlebot_area.yaml
 launch/localization.launch.py
 localization_server/__init__.py
 resource/localization_server

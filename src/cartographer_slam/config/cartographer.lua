@@ -21,11 +21,11 @@ options = {
   submap_publish_period_sec = 0.3,
   pose_publish_period_sec = 5e-3,
   trajectory_publish_period_sec = 30e-3,
-  rangefinder_sampling_ratio = 1.,
-  odometry_sampling_ratio = 1.,
-  fixed_frame_pose_sampling_ratio = 1.,
-  imu_sampling_ratio = 1.,
-  landmarks_sampling_ratio = 1.,
+  rangefinder_sampling_ratio = 0.25,
+  odometry_sampling_ratio = 0.25,
+  fixed_frame_pose_sampling_ratio = 0.25,
+  imu_sampling_ratio = 0.25,
+  landmarks_sampling_ratio = 0.25,
 }
 
 MAP_BUILDER.use_trajectory_builder_2d = true

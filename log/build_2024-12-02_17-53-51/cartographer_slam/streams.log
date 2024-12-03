@@ -1,0 +1,21 @@
+[2.773s] Invoking command in '/home/Gruppe4/ros2_ws/src/cartographer_slam': PYTHONPATH=/home/Gruppe4/ros2_ws/build/cartographer_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cartographer_slam build --build-base /home/Gruppe4/ros2_ws/build/cartographer_slam/build install --record /home/Gruppe4/ros2_ws/build/cartographer_slam/install.log --single-version-externally-managed install_data
+[3.818s] running egg_info
+[3.821s] writing ../../build/cartographer_slam/cartographer_slam.egg-info/PKG-INFO
+[3.822s] writing dependency_links to ../../build/cartographer_slam/cartographer_slam.egg-info/dependency_links.txt
+[3.823s] writing entry points to ../../build/cartographer_slam/cartographer_slam.egg-info/entry_points.txt
+[3.824s] writing requirements to ../../build/cartographer_slam/cartographer_slam.egg-info/requires.txt
+[3.824s] writing top-level names to ../../build/cartographer_slam/cartographer_slam.egg-info/top_level.txt
+[3.832s] reading manifest file '../../build/cartographer_slam/cartographer_slam.egg-info/SOURCES.txt'
+[3.837s] writing manifest file '../../build/cartographer_slam/cartographer_slam.egg-info/SOURCES.txt'
+[3.837s] running build
+[3.838s] running build_py
+[3.839s] running install
+[3.840s] running install_lib
+[3.845s] running install_data
+[3.846s] copying launch/cartographer.launch.py -> /home/Gruppe4/ros2_ws/install/cartographer_slam/share/cartographer_slam/launch
+[3.847s] running install_egg_info
+[3.855s] removing '/home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages/cartographer_slam-0.0.0-py3.10.egg-info' (and everything under it)
+[3.857s] Copying ../../build/cartographer_slam/cartographer_slam.egg-info to /home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages/cartographer_slam-0.0.0-py3.10.egg-info
+[3.863s] running install_scripts
+[3.947s] writing list of installed files to '/home/Gruppe4/ros2_ws/build/cartographer_slam/install.log'
+[4.062s] Invoked command in '/home/Gruppe4/ros2_ws/src/cartographer_slam' returned '0': PYTHONPATH=/home/Gruppe4/ros2_ws/build/cartographer_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Gruppe4/ros2_ws/install/cartographer_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cartographer_slam build --build-base /home/Gruppe4/ros2_ws/build/cartographer_slam/build install --record /home/Gruppe4/ros2_ws/build/cartographer_slam/install.log --single-version-externally-managed install_data

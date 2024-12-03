@@ -3,6 +3,7 @@
 /home/Gruppe4/ros2_ws/install/localization_server/share/ament_index/resource_index/packages/localization_server
 /home/Gruppe4/ros2_ws/install/localization_server/share/localization_server/package.xml
 /home/Gruppe4/ros2_ws/install/localization_server/share/localization_server/launch/localization.launch.py
+/home/Gruppe4/ros2_ws/install/localization_server/share/localization_server/config/turtlebot_area.yaml
 /home/Gruppe4/ros2_ws/install/localization_server/share/localization_server/config/amcl_config.yaml
 /home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages/localization_server-0.0.0-py3.10.egg-info/PKG-INFO
 /home/Gruppe4/ros2_ws/install/localization_server/lib/python3.10/site-packages/localization_server-0.0.0-py3.10.egg-info/top_level.txt

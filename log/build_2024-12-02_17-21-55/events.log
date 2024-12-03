@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.000990] (-) JobUnselected: {'identifier': 'asignment_1_pkg'}
+[0.001190] (-) JobUnselected: {'identifier': 'assignment_2_pkg'}
+[0.001332] (-) JobUnselected: {'identifier': 'assignment_3_pkg'}
+[0.001639] (-) JobUnselected: {'identifier': 'cartographer_slam'}
+[0.001894] (-) JobUnselected: {'identifier': 'localization_server'}
+[0.002175] (-) JobUnselected: {'identifier': 'map_server'}
+[0.002315] (-) JobUnselected: {'identifier': 'nav2_course'}
+[0.002393] (-) JobUnselected: {'identifier': 'nav2_project'}
+[0.002467] (-) JobUnselected: {'identifier': 'path_planner_server'}
+[0.002540] (-) EventReactorShutdown: {}
